@@ -1,0 +1,945 @@
+INSERT INTO Supplier VALUES
+('24636730', 'SUFT166', 'Barber-Wu', '(507)459-4847x5943', 'carol49@swanson.com',
+ '08721 Melissa Roads Suite 700, Lake Jenniferborough, MT 33802', 'Local', 'Active',
+ TO_DATE('2023-05-28', 'YYYY-MM-DD'), 3.4);
+
+INSERT INTO Supplier VALUES
+('57687653', 'SUCY581', 'Baxter-Olson', '001-358-998-5609x147', 'hullerika@norton-martinez.com',
+ '11385 Harry Fields, South John, AR 37677', 'International', 'Active',
+ TO_DATE('2020-03-11', 'YYYY-MM-DD'), 4.3);
+
+INSERT INTO Supplier VALUES
+('62651197', 'SUOJ275', 'Browning Inc', '912.870.7063x083', 'brownolivia@potter-anderson.com',
+ '81111 Austin Manors, West Brendafurt, WI 85111', 'International', 'Active',
+ TO_DATE('2024-07-17', 'YYYY-MM-DD'), 4.8);
+
+INSERT INTO Supplier VALUES
+('72174329', 'SUYH117', 'King-Davis', '+1-603-428-2313x7670', 'russodominic@middleton.net',
+ '5511 Cannon Land, Port Edwardmouth, CT 94620', 'Local', 'Active',
+ TO_DATE('2021-02-24', 'YYYY-MM-DD'), 3.9);
+
+INSERT INTO Supplier VALUES
+('87073414', 'SUDU683', 'Melton-Brown', '(023)926-0447', 'megan49@jones.org',
+ '7342 Shelton Fork, West Robertland, MS 64240', 'Local', 'Active',
+ TO_DATE('2024-10-15', 'YYYY-MM-DD'), 1.9);
+
+INSERT INTO Supplier VALUES
+('75790964', 'SUZL267', 'Douglas, Brown and Bond', '420-352-7297x4626', 'charlenegraves@allen-horne.com',
+ '06234 Williamson Highway Apt. 771, Stevenview, MO 79141', 'International', 'Active',
+ TO_DATE('2021-10-25', 'YYYY-MM-DD'), 4.9);
+
+INSERT INTO Supplier VALUES
+('91693353', 'SUJW864', 'Mclean PLC', '+1-064-913-3884x29227', 'jlittle@griffin-ho.info',
+ '1960 Clark Turnpike, South Sabrinaview, NE 04936', 'Local', 'Active',
+ TO_DATE('2022-08-01', 'YYYY-MM-DD'), 2.4);
+
+INSERT INTO Supplier VALUES
+('23413118', 'SURA436', 'Weaver, Rush and Mcknight', '001-877-785-0669', 'mooresuzanne@petersen.net',
+ '880 Dominguez Hills, North Susanville, ID 97357', 'International', 'Active',
+ TO_DATE('2022-04-29', 'YYYY-MM-DD'), 4.8);
+
+INSERT INTO Supplier VALUES
+('79089661', 'SUJC168', 'Brown, Jimenez and Guzman', '+1-995-475-0563', 'charles94@rivera-ross.com',
+ '70648 Brandi Manors Suite 662, West Patrickmouth, SC 81873', 'Local', 'Active',
+ TO_DATE('2021-06-23', 'YYYY-MM-DD'), 2.4);
+
+INSERT INTO Supplier VALUES
+('21880807', 'SUSD765', 'Rivera, Mcdonald and Herrera', '+1-916-106-9979x73176', 'martinezsusan@weber.com',
+ '7804 Smith Viaduct Apt. 890, New Russellshire, NC 68701', 'International', 'Active',
+ TO_DATE('2023-01-18', 'YYYY-MM-DD'), 4.1);
+
+
+
+
+
+
+
+
+
+
+SET DEFINE OFF;
+
+INSERT INTO Department (Department_ID, Department_Ref, Department_Name, Department_Vision, Department_Manager, Department_Email, Department_Office_Number, Department_No_Of_Employees, Department_Floor, Department_Creation_Date, Department_Mission) VALUES 
+('DEP001','DEPR001','Sales & Marketing','To be the market leader in office solutions','Mr. Adam Tan','sales_marketing@company.com','03-12345678',25,5,DATE '2020-03-15','Drive revenue growth through innovation');
+
+INSERT INTO Department (Department_ID, Department_Ref, Department_Name, Department_Vision, Department_Manager, Department_Email, Department_Office_Number, Department_No_Of_Employees, Department_Floor, Department_Creation_Date, Department_Mission) VALUES 
+('DEP002','DEPR002','Human Resources','Empower and develop our people','Ms. Sarah Wong','hr@company.com','03-87654321',12,2,DATE '2019-05-10','Foster a positive and inclusive culture');
+
+INSERT INTO Department (Department_ID, Department_Ref, Department_Name, Department_Vision, Department_Manager, Department_Email, Department_Office_Number, Department_No_Of_Employees, Department_Floor, Department_Creation_Date, Department_Mission) VALUES 
+('DEP003','DEPR003','Finance','Ensure financial sustainability and integrity','Mr. Joseph Lim','finance@company.com','03-13579246',18,4,DATE '2018-01-20','Maintain strong financial management');
+
+INSERT INTO Department (Department_ID, Department_Ref, Department_Name, Department_Vision, Department_Manager, Department_Email, Department_Office_Number, Department_No_Of_Employees, Department_Floor, Department_Creation_Date, Department_Mission) VALUES 
+('DEP004','DEPR004','IT Support','Deliver reliable and innovative IT solutions','Mr. Raymond Lee','it_support@company.com','03-24681357',15,3,DATE '2021-08-05','Enhance business through technology');
+
+INSERT INTO Department (Department_ID, Department_Ref, Department_Name, Department_Vision, Department_Manager, Department_Email, Department_Office_Number, Department_No_Of_Employees, Department_Floor, Department_Creation_Date, Department_Mission) VALUES 
+('DEP005','DEPR005','Logistics & Operations','Optimize logistics for timely deliveries','Ms. Noraini Khalid','logistics@company.com','03-11223344',20,6,DATE '2020-11-25','Ensure seamless operations and distribution');
+
+INSERT INTO Department (Department_ID, Department_Ref, Department_Name, Department_Vision, Department_Manager, Department_Email, Department_Office_Number, Department_No_Of_Employees, Department_Floor, Department_Creation_Date, Department_Mission) VALUES 
+('DEP006','DEPR006','Customer Service','Provide exceptional customer service','Ms. Jasmine Teo','customerservice@company.com','03-44332211',22,1,DATE '2019-06-18','Deliver outstanding customer experience');
+
+INSERT INTO Department (Department_ID, Department_Ref, Department_Name, Department_Vision, Department_Manager, Department_Email, Department_Office_Number, Department_No_Of_Employees, Department_Floor, Department_Creation_Date, Department_Mission) VALUES 
+('DEP007','DEPR007','Procurement','Source quality products at best value','Mr. Faizal Rahman','procurement@company.com','03-99887766',10,4,DATE '2017-09-12','Maintain strong supplier relationships');
+
+INSERT INTO Department (Department_ID, Department_Ref, Department_Name, Department_Vision, Department_Manager, Department_Email, Department_Office_Number, Department_No_Of_Employees, Department_Floor, Department_Creation_Date, Department_Mission) VALUES 
+('DEP008','DEPR008','R&D','Innovate for the future','Dr. Michelle Tan','rnd@company.com','03-22334455',8,7,DATE '2021-02-28','Drive product innovation and improvement');
+
+INSERT INTO Department (Department_ID, Department_Ref, Department_Name, Department_Vision, Department_Manager, Department_Email, Department_Office_Number, Department_No_Of_Employees, Department_Floor, Department_Creation_Date, Department_Mission) VALUES 
+('DEP009','DEPR009','Legal','Protect company interests and ensure compliance','Mr. Kelvin Soo','legal@company.com','03-55667788',6,3,DATE '2016-12-01','Ensure legal compliance');
+
+INSERT INTO Department (Department_ID, Department_Ref, Department_Name, Department_Vision, Department_Manager, Department_Email, Department_Office_Number, Department_No_Of_Employees, Department_Floor, Department_Creation_Date, Department_Mission) VALUES 
+('DEP010','DEPR010','Training & Development','Build employee skills and competencies','Ms. Farah Zainal','training@company.com','03-66554433',14,2,DATE '2020-07-14','Develop employee potential');
+
+
+
+
+SET DEFINE OFF;
+
+INSERT INTO Training VALUES (1001, 'Occupational Safety & Health', 25, 'NIOSH', 'Yes', '3 Days', DATE '2024-03-01', DATE '2024-03-03', 'Mandatory for site engineers', 1500.00, 'Kuala Lumpur');
+
+INSERT INTO Training VALUES (1002, 'Advanced Excel for Data Analysis', 15, 'ExcelPro Academy', 'No', '2 Days', DATE '2024-04-15', DATE '2024-04-16', 'Useful for reporting tasks', 850.00, 'Online (Zoom)');
+
+INSERT INTO Training VALUES (1003, 'Project Management Fundamentals', 20, 'PM Institute', 'Yes', '5 Days', DATE '2024-05-10', DATE '2024-05-14', 'Includes hands-on workshops', 2200.00, 'Penang');
+
+INSERT INTO Training VALUES (1004, 'Basic First Aid & CPR', 30, 'Red Cross Malaysia', 'Yes', '1 Day', DATE '2024-02-22', DATE '2024-02-22', 'Required for safety team', 300.00, 'Johor Bahru');
+
+INSERT INTO Training VALUES (1005, 'Effective Communication Skills', 18, 'SoftSkills4U', 'No', '2 Days', DATE '2024-06-05', DATE '2024-06-06', 'Interactive roleplay activities included', 600.00, 'Ipoh');
+
+INSERT INTO Training VALUES (1006, 'Cybersecurity Awareness', 40, 'CyberSec Institute', 'No', '1 Day', DATE '2024-03-18', DATE '2024-03-18', 'Focus on phishing and email safety', 500.00, 'Online (MS Teams)');
+
+INSERT INTO Training VALUES (1007, 'Leadership Development Program', 12, 'FutureLeaders Academy', 'Yes', '7 Days', DATE '2024-07-01', DATE '2024-07-07', 'For managerial staff', 3500.00, 'Kota Kinabalu');
+
+INSERT INTO Training VALUES (1008, 'AutoCAD 2D & 3D', 10, 'CADMaster Training', 'Yes', '10 Days', DATE '2024-01-10', DATE '2024-01-19', 'Includes certification exam', 4200.00, 'Kuala Terengganu');
+
+INSERT INTO Training VALUES (1009, 'Workplace Ethics & Integrity', 22, 'HR SkillCenter', 'No', '1 Day', DATE '2024-08-12', DATE '2024-08-12', 'Part of induction program', 200.00, 'Seremban');
+
+INSERT INTO Training VALUES (1010, 'Environmental Sustainability Policy', 16, 'GreenMalaysia', 'Yes', '3 Days', DATE '2024-09-20', DATE '2024-09-22', 'Covers ISO 14001 basics', 1300.00, 'Shah Alam');
+
+COMMIT;
+
+
+
+
+
+
+INSERT INTO Company (Company_Reference_No, Company_SSM, Company_Tax_No, Company_Name, Company_Email, Company_Office_Address, Company_Industry, Company_Established_Year, Company_Motto, Company_Owner, Company_Employee_No) VALUES ('CRN001', 'SSM2023010001', 'TAX2023010001', 'Axis Engineering Solutions', 'info@axiseng.my', '12 Jalan Merdeka, Kuala Lumpur', 'Technology', 2010, 'Precision Through Innovation', 'Ahmad Firdaus', 120);
+
+INSERT INTO Company (Company_Reference_No, Company_SSM, Company_Tax_No, Company_Name, Company_Email, Company_Office_Address, Company_Industry, Company_Established_Year, Company_Motto, Company_Owner, Company_Employee_No) VALUES ('CRN002', 'SSM2023010002', 'TAX2023010002', 'NexaTech Systems Sdn Bhd', 'hello@nexatech.com', '22 Jalan Cyber, Petaling Jaya', 'Technology', 2012, 'Your IT Future, Delivered', 'Tan Wei Ling', 85);
+
+INSERT INTO Company (Company_Reference_No, Company_SSM, Company_Tax_No, Company_Name, Company_Email, Company_Office_Address, Company_Industry, Company_Established_Year, Company_Motto, Company_Owner, Company_Employee_No) VALUES ('CRN003', 'SSM2023010003', 'TAX2023010003', 'Mechline Manufacturing Ltd', 'contact@mechline.com.my', '45 Jalan Industri, Shah Alam', 'Technology', 2008, 'Engineering Trust, Building Quality', 'Rajesh Kumar', 150);
+
+INSERT INTO Company (Company_Reference_No, Company_SSM, Company_Tax_No, Company_Name, Company_Email, Company_Office_Address, Company_Industry, Company_Established_Year, Company_Motto, Company_Owner, Company_Employee_No) VALUES ('CRN004', 'SSM2023010004', 'TAX2023010004', 'Finix Capital Holdings', 'support@finixcapital.my', '33 Jalan Tun Razak, Kuala Lumpur', 'Technology', 2005, 'Smart Finance, Stronger Future', 'Lim Siew Peng', 60);
+
+INSERT INTO Company (Company_Reference_No, Company_SSM, Company_Tax_No, Company_Name, Company_Email, Company_Office_Address, Company_Industry, Company_Established_Year, Company_Motto, Company_Owner, Company_Employee_No) VALUES ('CRN005', 'SSM2023010005', 'TAX2023010005', 'PeopleCentric HR Solutions', 'hr@peoplecentric.my', '88 Jalan Perak, Subang Jaya', 'Technology', 2016, 'Empowering Workplaces', 'Nor Hidayah', 40);
+
+INSERT INTO Company (Company_Reference_No, Company_SSM, Company_Tax_No, Company_Name, Company_Email, Company_Office_Address, Company_Industry, Company_Established_Year, Company_Motto, Company_Owner, Company_Employee_No) VALUES ('CRN006', 'SSM2023010006', 'TAX2023010006', 'Stratigo Branding Agency', 'team@stratigo.com.my', '11 Jalan Ampang, Kuala Lumpur', 'Technology', 2013, 'Brands That Speak', 'Chan Kok Leong', 90);
+
+INSERT INTO Company (Company_Reference_No, Company_SSM, Company_Tax_No, Company_Name, Company_Email, Company_Office_Address, Company_Industry, Company_Established_Year, Company_Motto, Company_Owner, Company_Employee_No) VALUES ('CRN007', 'SSM2023010007', 'TAX2023010007', 'GlobalRoute Logistics', 'info@globalroute.my', '19 Jalan Kelana, Klang', 'Technology', 2009, 'Moving Forward Together', 'Muthu Samy', 100);
+
+INSERT INTO Company (Company_Reference_No, Company_SSM, Company_Tax_No, Company_Name, Company_Email, Company_Office_Address, Company_Industry, Company_Established_Year, Company_Motto, Company_Owner, Company_Employee_No) VALUES ('CRN008', 'SSM2023010008', 'TAX2023010008', 'Ascend Quality Consulting', 'services@ascendqa.my', '14 Jalan Teknologi, Cyberjaya', 'Technology', 2018, 'Commitment to Quality', 'Wong Mei Ling', 50);
+
+INSERT INTO Company (Company_Reference_No, Company_SSM, Company_Tax_No, Company_Name, Company_Email, Company_Office_Address, Company_Industry, Company_Established_Year, Company_Motto, Company_Owner, Company_Employee_No) VALUES ('CRN009', 'SSM2023010009', 'TAX2023010009', 'Zenith Client Services', 'connect@zenithcs.my', '7 Jalan Tropika, Bangi', 'Technology', 2017, 'Driving Success Through Service', 'Siti Rahimah', 35);
+
+INSERT INTO Company (Company_Reference_No, Company_SSM, Company_Tax_No, Company_Name, Company_Email, Company_Office_Address, Company_Industry, Company_Established_Year, Company_Motto, Company_Owner, Company_Employee_No) VALUES ('CRN010', 'SSM2023010010', 'TAX2023010010', 'Optivue Admin Solutions', 'info@optivue.my', '5 Jalan Damai, Seremban', 'Technology', 2015, 'Your Office. Simplified.', 'Khor Boon Hock', 25);
+
+
+-- Person 1 to 10 (Employees)
+INSERT INTO Person VALUES ('900101011111', 'Ahmad Firdaus', 'ahmad_firdaus@email.my', 'Active', 'CRN001');
+INSERT INTO Person VALUES ('900202022222', 'Tan Wei Ling', 'tan_wei_ling@email.my', 'Active', 'CRN002');
+INSERT INTO Person VALUES ('870303033333', 'Rajesh Kumar', 'rajesh_kumar@email.my', 'Active', 'CRN003');
+INSERT INTO Person VALUES ('760404044444', 'Lim Siew Peng', 'lim_siew_peng@email.my', 'Active', 'CRN004');
+INSERT INTO Person VALUES ('850505055555', 'Nor Hidayah', 'nor_hidayah@email.my', 'Active', 'CRN005');
+INSERT INTO Person VALUES ('820606066666', 'Chan Kok Leong', 'chan_kok_leong@email.my', 'Active', 'CRN006');
+INSERT INTO Person VALUES ('780707077777', 'Muthu Samy', 'muthu_samy@email.my', 'Active', 'CRN007');
+INSERT INTO Person VALUES ('900808088888', 'Wong Mei Ling', 'wong_mei_ling@email.my', 'Active', 'CRN008');
+INSERT INTO Person VALUES ('910909099999', 'Siti Rahimah', 'siti_rahimah@email.my', 'Active', 'CRN009');
+INSERT INTO Person VALUES ('800101100000', 'Khor Boon Hock', 'khor_boon_hock@email.my', 'Active', 'CRN010');
+
+-- Person 11 to 20 (Sales Persons)
+INSERT INTO Person VALUES ('900101111111', 'Firdaus Ahmad', 'sp01@alliancesales.com', 'Active', 'CRN001');
+INSERT INTO Person VALUES ('910202122222', 'Wei Ling Tan', 'sp02@alliancesales.com', 'Active', 'CRN002');
+INSERT INTO Person VALUES ('880303133333', 'Kumar Rajesh', 'sp03@alliancesales.com', 'Active', 'CRN003');
+INSERT INTO Person VALUES ('950404144444', 'Siew Peng Lim', 'sp04@alliancesales.com', 'Active', 'CRN004');
+INSERT INTO Person VALUES ('960505155555', 'Hidayah Nor', 'sp05@alliancesales.com', 'Active', 'CRN005');
+INSERT INTO Person VALUES ('870606166666', 'Kok Leong Chan', 'sp06@alliancesales.com', 'Active', 'CRN006');
+INSERT INTO Person VALUES ('840707177777', 'Samy Muthu', 'sp07@alliancesales.com', 'Active', 'CRN007');
+INSERT INTO Person VALUES ('990808188888', 'Mei Ling Wong', 'sp08@alliancesales.com', 'Active', 'CRN008');
+INSERT INTO Person VALUES ('850909199999', 'Rahimah Siti', 'sp09@alliancesales.com', 'Active', 'CRN009');
+INSERT INTO Person VALUES ('921010200000', 'Boon Hock Khor', 'sp10@alliancesales.com', 'Active', 'CRN010');
+
+-- Person 21 to 30 (Technicians)
+INSERT INTO Person VALUES ('930101211111', 'Azwan Zakaria', 'tech001@allianceservice.com', 'Active', 'CRN001');
+INSERT INTO Person VALUES ('910202222222', 'Alia Rahman', 'tech002@allianceservice.com', 'Active', 'CRN002');
+INSERT INTO Person VALUES ('880303233333', 'Hafiz Osman', 'tech003@allianceservice.com', 'Active', 'CRN003');
+INSERT INTO Person VALUES ('950404244444', 'Nur Aina', 'tech004@allianceservice.com', 'Active', 'CRN004');
+INSERT INTO Person VALUES ('960505255555', 'Faizul Karim', 'tech005@allianceservice.com', 'Active', 'CRN005');
+INSERT INTO Person VALUES ('870606266666', 'Halim Zain', 'tech006@allianceservice.com', 'Active', 'CRN006');
+INSERT INTO Person VALUES ('840707277777', 'Zaki Ibrahim', 'tech007@allianceservice.com', 'Active', 'CRN007');
+INSERT INTO Person VALUES ('990808288888', 'Amira Salim', 'tech008@allianceservice.com', 'Active', 'CRN008');
+INSERT INTO Person VALUES ('850909299999', 'Amirul Afiq', 'tech009@allianceservice.com', 'Active', 'CRN009');
+INSERT INTO Person VALUES ('921010300000', 'Nabilah Zahari', 'tech010@allianceservice.com', 'Active', 'CRN010');
+
+
+INSERT INTO Employee VALUES ('E01','TIN-9001010001','M','12 Jalan Merdeka, KL','Married',TO_DATE('2021-06-01','YYYY-MM-DD'),4300.00,33,TO_DATE('1990-01-01','YYYY-MM-DD'),'Full-time','DEP001','900101011111');
+INSERT INTO Employee VALUES ('E02','TIN-9102020002','F','15 Jalan Bukit, Selangor','Married',TO_DATE('2023-01-20','YYYY-MM-DD'),3600.00,31,TO_DATE('1992-02-02','YYYY-MM-DD'),'Full-time','DEP002','900202022222');
+INSERT INTO Employee VALUES ('E03','TIN-8803030003','M','9 Jalan Tun, KL','Married',TO_DATE('2018-04-10','YYYY-MM-DD'),5800.00,36,TO_DATE('1988-03-03','YYYY-MM-DD'),'Full-time','DEP003','870303033333');
+INSERT INTO Employee VALUES ('E04','TIN-9504040004','F','77 Jalan Gombak, KL','Single',TO_DATE('2022-02-15','YYYY-MM-DD'),4000.00,29,TO_DATE('1995-04-04','YYYY-MM-DD'),'Full-time','DEP004','760404044444');
+INSERT INTO Employee VALUES ('E05','TIN-9605050005','M','23 Jalan Tun Razak, KL','Married',TO_DATE('2023-06-01','YYYY-MM-DD'),3200.00,28,TO_DATE('1996-05-05','YYYY-MM-DD'),'Part-time','DEP005','850505055555');
+INSERT INTO Employee VALUES ('E06','TIN-8706060006','M','30 Jalan Ampang, KL','Married',TO_DATE('2020-07-10','YYYY-MM-DD'),5300.00,37,TO_DATE('1987-06-06','YYYY-MM-DD'),'Full-time','DEP006','820606066666');
+INSERT INTO Employee VALUES ('E07','TIN-8407070007','M','16 Jalan Damansara, Selangor','Married',TO_DATE('2016-01-05','YYYY-MM-DD'),6200.00,40,TO_DATE('1984-07-07','YYYY-MM-DD'),'Full-time','DEP007','780707077777');
+INSERT INTO Employee VALUES ('E08','TIN-9908080008','M','19 Jalan Bunga Raya, Melaka','Single',TO_DATE('2023-03-01','YYYY-MM-DD'),3500.00,25,TO_DATE('1999-08-08','YYYY-MM-DD'),'Part-time','DEP008','900808088888');
+INSERT INTO Employee VALUES ('E09','TIN-8509090009','F','25 Jalan Tebrau, Johor','Married',TO_DATE('2017-06-15','YYYY-MM-DD'),6000.00,39,TO_DATE('1985-09-09','YYYY-MM-DD'),'Full-time','DEP009','910909099999');
+INSERT INTO Employee VALUES ('E10','TIN-9210100010','M','89 Jalan Reko, Kajang','Married',TO_DATE('2022-08-15','YYYY-MM-DD'),3900.00,32,TO_DATE('1992-10-10','YYYY-MM-DD'),'Full-time','DEP010','800101100000');
+INSERT INTO Employee VALUES ('E11','TIN-9301010011','M','1 Taman Selesa, KL','Married',TO_DATE('2019-01-10','YYYY-MM-DD'),4200.00,31,TO_DATE('1993-01-01','YYYY-MM-DD'),'Full-time','DEP001','900101111111');
+INSERT INTO Employee VALUES ('E12','TIN-9102020012','F','2 Lorong Damai, Sabah','Married',TO_DATE('2021-03-05','YYYY-MM-DD'),3800.00,33,TO_DATE('1991-02-02','YYYY-MM-DD'),'Full-time','DEP001','910202122222');
+INSERT INTO Employee VALUES ('E13','TIN-8803030013','M','3 Jalan Indah, Selangor','Married',TO_DATE('2015-04-20','YYYY-MM-DD'),4900.00,36,TO_DATE('1988-03-03','YYYY-MM-DD'),'Full-time','DEP002','880303133333');
+INSERT INTO Employee VALUES ('E14','TIN-9504040014','F','4 Jalan Tenang, KL','Married',TO_DATE('2022-01-12','YYYY-MM-DD'),3500.00,29,TO_DATE('1995-04-04','YYYY-MM-DD'),'Full-time','DEP003','950404144444');
+INSERT INTO Employee VALUES ('E15','TIN-9605050015','M','5 Jalan Bahagia, Sarawak','Single',TO_DATE('2013-07-01','YYYY-MM-DD'),5000.00,28,TO_DATE('1996-05-05','YYYY-MM-DD'),'Full-time','DEP004','960505155555');
+INSERT INTO Employee VALUES ('E16','TIN-8706060016','M','6 Jalan Mawar, KL','Married',TO_DATE('2020-08-01','YYYY-MM-DD'),4100.00,37,TO_DATE('1987-06-06','YYYY-MM-DD'),'Full-time','DEP005','870606166666');
+INSERT INTO Employee VALUES ('E17','TIN-8407070017','M','7 Jalan Setia, Johor','Married',TO_DATE('2016-03-22','YYYY-MM-DD'),5200.00,40,TO_DATE('1984-07-07','YYYY-MM-DD'),'Full-time','DEP006','840707177777');
+INSERT INTO Employee VALUES ('E18','TIN-9908080018','F','8 Jalan Wawasan, Sabah','Single',TO_DATE('2023-04-10','YYYY-MM-DD'),3300.00,25,TO_DATE('1999-08-08','YYYY-MM-DD'),'Part-time','DEP007','990808188888');
+INSERT INTO Employee VALUES ('E19','TIN-8509090019','M','9 Jalan Murni, Selangor','Married',TO_DATE('2017-08-01','YYYY-MM-DD'),5500.00,39,TO_DATE('1985-09-09','YYYY-MM-DD'),'Full-time','DEP008','850909199999');
+INSERT INTO Employee VALUES ('E20','TIN-9210100020','M','10 Jalan Aman, KL','Married',TO_DATE('2020-09-01','YYYY-MM-DD'),4000.00,32,TO_DATE('1992-10-10','YYYY-MM-DD'),'Full-time','DEP009','921010200000');
+
+
+
+
+INSERT INTO Leave_Form (Leave_Form_ID, Leave_Form_Ref_Code, LF_Leave_Type, LF_Start_Date, LF_End_Date, LF_Duration, LF_Reason, LF_Submission_Date, LF_Approval_Date, LF_Approver_Name, LF_Remarks, Department_ID, Employee_ID) 
+VALUES ('LF001', 'REF-LF-2023-001', 'Annual', DATE '2023-12-01', DATE '2023-12-05', 5, 'Family vacation', DATE '2023-11-15', DATE '2023-11-16', 'Farah Zainal', 'Approved without issue', 'DEP001', 'E01');
+
+INSERT INTO Leave_Form VALUES 
+('LF002', 'REF-LF-2023-002', 'Sick', DATE '2023-10-12', DATE '2023-10-14', 3, 'Fever and flu', DATE '2023-10-11', DATE '2023-10-12', 'Hafizul Jamal', 'Medical certificate attached', 'DEP002', 'E02');
+
+INSERT INTO Leave_Form VALUES 
+('LF003', 'REF-LF-2023-003', 'Unpaid', DATE '2023-09-18', DATE '2023-09-22', 5, 'Personal matters', DATE '2023-09-01', DATE '2023-09-03', 'Nurul Shafiqa', 'No salary deduction noted', 'DEP003', 'E03');
+
+INSERT INTO Leave_Form VALUES 
+('LF004', 'REF-LF-2023-004', 'Emergency', DATE '2023-11-02', DATE '2023-11-03', 2, 'Family emergency', DATE '2023-11-01', DATE '2023-11-02', 'Adam Khairuddin', 'Leave granted immediately', 'DEP004', 'E04');
+
+INSERT INTO Leave_Form VALUES 
+('LF005', 'REF-LF-2023-005', 'Maternity', DATE '2023-07-01', DATE '2023-09-30', 92, 'Maternity leave', DATE '2023-06-15', DATE '2023-06-20', 'Diana Abdul Razak', 'Standard maternity approval', 'DEP005', 'E05');
+
+INSERT INTO Leave_Form VALUES 
+('LF006', 'REF-LF-2023-006', 'Annual', DATE '2023-08-10', DATE '2023-08-14', 5, 'Travel', DATE '2023-07-20', DATE '2023-07-21', 'Roslan Ibrahim', 'Backup assigned', 'DEP006', 'E06');
+
+INSERT INTO Leave_Form VALUES 
+('LF007', 'REF-LF-2023-007', 'Sick', DATE '2023-06-05', DATE '2023-06-06', 2, 'Migraine', DATE '2023-06-04', DATE '2023-06-05', 'Anisah Mohamad', 'Certificate provided', 'DEP007', 'E07');
+
+INSERT INTO Leave_Form VALUES 
+('LF008', 'REF-LF-2023-008', 'Emergency', DATE '2023-10-20', DATE '2023-10-21', 2, 'House flooding', DATE '2023-10-19', DATE '2023-10-19', 'Faizal Zahari', 'Emergency leave approved', 'DEP008', 'E08');
+
+INSERT INTO Leave_Form VALUES 
+('LF009', 'REF-LF-2023-009', 'Annual', DATE '2023-12-20', DATE '2023-12-29', 10, 'Year-end family trip', DATE '2023-11-25', DATE '2023-11-26', 'Zainab Ramli', 'Long leave request granted', 'DEP009', 'E09');
+
+INSERT INTO Leave_Form VALUES 
+('LF010', 'REF-LF-2023-010', 'Sick', DATE '2023-05-11', DATE '2023-05-13', 3, 'Dengue recovery', DATE '2023-05-10', DATE '2023-05-10', 'Khalid Noor', 'Hospitalization leave', 'DEP010', 'E10');
+
+
+
+INSERT INTO Sales_Person VALUES ('SP01', 'REF-SP-MY-2023-001', 3, 'English,Malay,Mandarin', 'Y', 150000.00, 420500.00, 5.25, TO_DATE('2023-06-15','YYYY-MM-DD'), 'Advanced', 'E11');
+INSERT INTO Sales_Person VALUES ('SP02', 'REF-SP-MY-2023-002', 1, 'English,Malay', 'Y', 75000.00, 185300.00, 3.50, TO_DATE('2023-11-20','YYYY-MM-DD'), 'Basic', 'E12');
+INSERT INTO Sales_Person VALUES ('SP03', 'REF-SP-MY-2023-003', 5, 'English,Tamil', 'Y', 200000.00, 725800.00, 7.80, TO_DATE('2023-03-10','YYYY-MM-DD'), 'Expert', 'E13');
+INSERT INTO Sales_Person VALUES ('SP04', 'REF-SP-MY-2023-004', 2, 'English,Cantonese,Malay', 'Y', 125000.00, 310200.00, 4.75, TO_DATE('2023-09-05','YYYY-MM-DD'), 'Intermediate', 'E14');
+INSERT INTO Sales_Person VALUES ('SP05', 'REF-SP-MY-2023-005', 1, 'Malay', 'Y', 50000.00, 0.00, 2.00, TO_DATE('2023-09-05','YYYY-MM-DD'), 'Basic', 'E15');
+INSERT INTO Sales_Person VALUES ('SP06', 'REF-SP-MY-2023-006', 4, 'English,Malay,Hokkien', 'Y', 180000.00, 580400.00, 6.50, TO_DATE('2023-07-22','YYYY-MM-DD'), 'Advanced', 'E16');
+INSERT INTO Sales_Person VALUES ('SP07', 'REF-SP-MY-2023-007', 7, 'English,Mandarin', 'Y', 250000.00, 920750.00, 9.25, TO_DATE('2023-01-18','YYYY-MM-DD'), 'Expert', 'E17');
+INSERT INTO Sales_Person VALUES ('SP08', 'REF-SP-MY-2023-008', 1, 'English', 'Y', 80000.00, 195600.00, 3.75, TO_DATE('2023-10-30','YYYY-MM-DD'), 'Intermediate', 'E18');
+INSERT INTO Sales_Person VALUES ('SP09', 'REF-SP-MY-2023-009', 6, 'Malay,Mandarin', 'Y', 220000.00, 810300.00, 8.50, TO_DATE('2023-04-12','YYYY-MM-DD'), 'Advanced', 'E19');
+INSERT INTO Sales_Person VALUES ('SP10', 'REF-SP-MY-2023-010', 2, 'English,Malay,Tamil', 'Y', 100000.00, 275900.00, 4.25, TO_DATE('2023-08-08','YYYY-MM-DD'), 'Advanced', 'E20');
+
+
+
+INSERT INTO PIC VALUES ('PIC001','REF2023-001','Operations Manager',TO_DATE('2020-05-15','YYYY-MM-DD'),'Project Lead','ahmad_firdaus@email.my','Operations','+60123456789','Malay','Malaysian','SP01','CRN001','930101211111');
+INSERT INTO PIC VALUES ('PIC002','REF2023-002','IT Supervisor',TO_DATE('2019-11-22','YYYY-MM-DD'),'System Admin','tan_wei_ling@email.my','IT','+60198765432','Chinese','Malaysian','SP02','CRN002','910202222222');
+INSERT INTO PIC VALUES ('PIC003','REF2023-003','Senior Engineer',TO_DATE('2021-03-10','YYYY-MM-DD'),'Technical Lead','rajesh_kumar@email.my','Engineering','+60111222333','Malay','Malaysian','SP03','CRN003','880303233333');
+INSERT INTO PIC VALUES ('PIC004','REF2023-004','Finance Director',TO_DATE('2018-07-05','YYYY-MM-DD'),'Financial Control','lim_siew_peng@email.my','Finance','+60133444555','Malay','Malaysian','SP04','CRN004','950404244444');
+INSERT INTO PIC VALUES ('PIC005','REF2023-005','HR Manager',TO_DATE('2022-01-30','YYYY-MM-DD'),'Recruitment','nor_hidayah@email.my','Human Resources','+60155666777','Malay','Malaysian','SP05','CRN005','960505255555');
+INSERT INTO PIC VALUES ('PIC006','REF2023-006','Marketing Head',TO_DATE('2020-09-18','YYYY-MM-DD'),'Brand Strategy','chan_kok_leong@email.my','Marketing','+60177888999','Malay','Malaysian','SP06','CRN006','870606266666');
+INSERT INTO PIC VALUES ('PIC007','REF2023-007','Logistics Manager',TO_DATE('2021-12-01','YYYY-MM-DD'),'Supply Chain','muthu_samy@email.my','Logistics','+60199000111','Malay','Malaysian','SP07','CRN007','840707277777');
+INSERT INTO PIC VALUES ('PIC008','REF2023-008','QA Specialist',TO_DATE('2022-06-25','YYYY-MM-DD'),'Product Testing','wong_mei_ling@email.my','Quality','+60122333444','Malay','Malaysian','SP08','CRN008','990808288888');
+INSERT INTO PIC VALUES ('PIC009','REF2023-009','Sales Executive',TO_DATE('2023-02-14','YYYY-MM-DD'),'Client Relations','siti_rahimah@email.my','Sales','+60144555666','Malay','Malaysian','SP09','CRN009','850909299999');
+INSERT INTO PIC VALUES ('PIC010','REF2023-010','Admin Coordinator',TO_DATE('2021-08-09','YYYY-MM-DD'),'Office Management','khor_boon_hock@email.my','Administration','+60166777888','Malay','Malaysian','SP10','CRN010','921010300000');
+
+
+
+
+
+INSERT INTO PIC_Visit VALUES ('PV001', TO_TIMESTAMP('2025-06-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-06-01', 'YYYY-MM-DD'), '60', 'Kuala Lumpur Branch', 'John Tan, Alice Wong', 'Client satisfied, next order in July', 'Yes', 'Yes', '120.00', 'PIC001', 'SP01');
+INSERT INTO PIC_Visit VALUES ('PV002', TO_TIMESTAMP('2025-06-02 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-06-02', 'YYYY-MM-DD'), '45', 'Penang Office', 'Ahmad Zulkifli', 'Inquiry about new product range', 'No', 'No', '95.00', 'PIC002', 'SP02');
+INSERT INTO PIC_Visit VALUES ('PV003', TO_TIMESTAMP('2025-06-03 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-06-03', 'YYYY-MM-DD'), '90', 'Johor Bahru HQ', 'Michael Lim, Noraini', 'Discussed service improvements', 'Yes', 'Yes', '180.00', 'PIC003', 'SP03');
+INSERT INTO PIC_Visit VALUES ('PV004', TO_TIMESTAMP('2025-06-04 11:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-06-04', 'YYYY-MM-DD'), '60', 'Ipoh Regional Office', 'Chong Wei, Tan Mei Lin', 'Positive feedback, requested brochure', 'No', 'Yes', '110.00', 'PIC004', 'SP04');
+INSERT INTO PIC_Visit VALUES ('PV005', TO_TIMESTAMP('2025-06-05 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-06-05', 'YYYY-MM-DD'), '75', 'Seremban Office', 'Razali Osman', 'Discussed training session needs', 'Yes', 'No', '135.00', 'PIC005', 'SP05');
+INSERT INTO PIC_Visit VALUES ('PV006', TO_TIMESTAMP('2025-06-06 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-06-06', 'YYYY-MM-DD'), '50', 'Shah Alam HQ', 'Nur Aisyah, Hanif', 'Complaint resolved, happy customer', 'No', 'Yes', '90.00', 'PIC006', 'SP06');
+INSERT INTO PIC_Visit VALUES ('PV007', TO_TIMESTAMP('2025-06-07 15:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-06-07', 'YYYY-MM-DD'), '80', 'Melaka Branch', 'Siti Zubaidah, Firdaus', 'Ordered new batch of photocopiers', 'Yes', 'Yes', '150.00', 'PIC007', 'SP07');
+INSERT INTO PIC_Visit VALUES ('PV008', TO_TIMESTAMP('2025-06-08 14:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-06-08', 'YYYY-MM-DD'), '60', 'Kota Bharu Office', 'Haslina Mokhtar', 'General catch-up visit', 'No', 'No', '160.00', 'PIC008', 'SP08');
+INSERT INTO PIC_Visit VALUES ('PV009', TO_TIMESTAMP('2025-06-09 10:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-06-09', 'YYYY-MM-DD'), '70', 'Alor Setar Regional', 'Teo Swee Ping, Tan Ai Ling', 'Warranty extension request', 'Yes', 'Yes', '200.00', 'PIC009', 'SP09');
+INSERT INTO PIC_Visit VALUES ('PV010', TO_TIMESTAMP('2025-06-10 16:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-06-10', 'YYYY-MM-DD'), '90', 'Kuala Terengganu Branch', 'Roslan Mahmood, Julia Hamzah', 'Training session feedback collected', 'No', 'Yes', '170.00', 'PIC010', 'SP10');
+
+
+
+
+
+INSERT INTO Contract (Contract_ID, Contract_Ref_Code, Contract_Start_Date, Contract_End_Date, Contract_Agreement_Type, Contract_Service_Level, Contract_Work_Scope, Contract_Total_Value, Contract_Status, Contract_Payment_Term, Sales_Person_ID, Company_Reference_No, PIC_ID) 
+VALUES ('C001', 'REF-CON-2023-001', DATE '2024-01-01', DATE '2025-01-01', 'Tender', 'Monthly', 'Full-service copier leasing for regional offices', 158000.00, 'Active', 'Monthly', 'SP01', 'CRN001', 'PIC001');
+
+INSERT INTO Contract VALUES 
+('C002', 'REF-CON-2023-002', DATE '2023-07-15', DATE '2024-07-14', 'Tender', 'Quarterly', 'Toner supply and service support', 45600.00, 'Active', 'Net 15', 'SP02', 'CRN002', 'PIC002');
+
+INSERT INTO Contract VALUES 
+('C003', 'REF-CON-2023-003', DATE '2024-03-01', DATE '2025-03-01', 'Tender', 'Annual', 'Equipment installation and training', 94500.00, 'Active', 'Monthly', 'SP03', 'CRN003', 'PIC003');
+
+INSERT INTO Contract VALUES 
+('C004', 'REF-CON-2023-004', DATE '2023-11-05', DATE '2024-11-04', 'Tender', 'Monthly', '24/7 copier maintenance for educational institutions', 113000.00, 'Active', 'Net 15', 'SP04', 'CRN004', 'PIC004');
+
+INSERT INTO Contract VALUES 
+('C005', 'REF-CON-2023-005', DATE '2022-06-10', DATE '2023-06-10', 'Tender', 'Quarterly', 'Government agency leasing support', 74000.00, 'Active', 'Monthly', 'SP05', 'CRN005', 'PIC005');
+
+INSERT INTO Contract VALUES 
+('C006', 'REF-CON-2023-006', DATE '2023-02-15', DATE '2024-02-14', 'Tender', 'Annual', 'Copier relocation and technical optimization', 128500.00, 'Active', 'Monthly', 'SP06', 'CRN006', 'PIC006');
+
+INSERT INTO Contract VALUES 
+('C007', 'REF-CON-2023-007', DATE '2024-05-01', DATE '2025-05-01', 'Tender', 'Monthly', 'Installation of 15 multifunction printers', 189700.00, 'Active', 'Net 15', 'SP07', 'CRN007', 'PIC007');
+
+INSERT INTO Contract VALUES 
+('C008', 'REF-CON-2023-008', DATE '2023-10-20', DATE '2024-10-19', 'Tender', 'Quarterly', 'Full lease and service contract for Eastern branch', 155000.00, 'Active', 'Monthly', 'SP08', 'CRN008', 'PIC008');
+
+INSERT INTO Contract VALUES 
+('C009', 'REF-CON-2023-009', DATE '2023-03-10', DATE '2024-03-10', 'Tender', 'Monthly', 'Smart printing tech upgrade', 120000.00, 'Active', 'Monthly', 'SP09', 'CRN009', 'PIC009');
+
+INSERT INTO Contract VALUES 
+('C010', 'REF-CON-2023-010', DATE '2024-06-18', DATE '2025-06-18', 'Tender', 'Monthly', 'IT asset printing and maintenance coverage', 198700.00, 'Active', 'Net 15', 'SP10', 'CRN010', 'PIC010');
+
+INSERT INTO Contract VALUES 
+('C011', 'REF-CON-2023-011', DATE '2023-03-06', DATE '2024-03-06', 'Direct Purchase', 'Monthly', 'Copier unit purchase and install', 67500.00, 'Active', 'Monthly', 'SP01', 'CRN001', 'PIC001');
+
+INSERT INTO Contract VALUES 
+('C012', 'REF-CON-2023-012', DATE '2022-09-19', DATE '2023-09-19', 'Direct Purchase', 'Quarterly', 'Toner and paper bundle purchase', 22900.00, 'Active', 'Net 15', 'SP02', 'CRN002', 'PIC002');
+
+INSERT INTO Contract VALUES 
+('C013', 'REF-CON-2023-013', DATE '2024-04-05', DATE '2025-04-05', 'Direct Purchase', 'Annual', 'Upgrade of office printing network', 85600.00, 'Active', 'Monthly', 'SP03', 'CRN003', 'PIC003');
+
+INSERT INTO Contract VALUES 
+('C014', 'REF-CON-2023-014', DATE '2024-10-14', DATE '2025-10-14', 'Direct Purchase', 'Monthly', 'Replacement parts and ink delivery', 30900.00, 'Active', 'Monthly', 'SP04', 'CRN004', 'PIC004');
+
+INSERT INTO Contract VALUES 
+('C015', 'REF-CON-2023-015', DATE '2023-08-06', DATE '2024-08-06', 'Direct Purchase', 'Quarterly', 'Express delivery and tech support', 49750.00, 'Active', 'Net 15', 'SP05', 'CRN005', 'PIC005');
+
+INSERT INTO Contract VALUES 
+('C016', 'REF-CON-2023-016', DATE '2023-07-17', DATE '2024-07-17', 'Direct Purchase', 'Monthly', 'Print management system deployment', 134500.00, 'Active', 'Monthly', 'SP06', 'CRN006', 'PIC006');
+
+INSERT INTO Contract VALUES 
+('C017', 'REF-CON-2023-017', DATE '2021-09-05', DATE '2022-09-05', 'Direct Purchase', 'Annual', 'End-of-life copier replacement', 90200.00, 'Active', 'Net 15', 'SP07', 'CRN007', 'PIC007');
+
+INSERT INTO Contract VALUES 
+('C018', 'REF-CON-2023-018', DATE '2022-01-21', DATE '2023-01-21', 'Direct Purchase', 'Monthly', 'On-site installation of scanning equipment', 73450.00, 'Active', 'Monthly', 'SP08', 'CRN008', 'PIC008');
+
+INSERT INTO Contract VALUES 
+('C019', 'REF-CON-2023-019', DATE '2021-02-03', DATE '2022-02-03', 'Direct Purchase', 'Quarterly', 'Consumable purchase for HQ printing center', 22800.00, 'Active', 'Net 15', 'SP09', 'CRN009', 'PIC009');
+
+INSERT INTO Contract VALUES 
+('C020', 'REF-CON-2023-020', DATE '2023-08-04', DATE '2024-08-04', 'Direct Purchase', 'Annual', 'Large format printer acquisition', 113600.00, 'Active', 'Monthly', 'SP10', 'CRN010', 'PIC010');
+
+
+INSERT INTO Direct_Purchase VALUES (38623129, 'DP-TW855', 'Q-43037', DATE '2024-03-06', DATE '2025-04-03', TO_DATE('07:16:18', 'HH24:MI:SS'), 'Pending', 'Critical', 'System prevent deep seem much animal.', 'When box actually message deal reality.', 'C001');
+INSERT INTO Direct_Purchase VALUES (71694096, 'DP-FB232', 'Q-53941', DATE '2022-09-19', DATE '2025-01-07', TO_DATE('01:06:34', 'HH24:MI:SS'), 'Rejected', 'Critical', 'Successful parent will or hold.', 'Instead role table get so.', 'C002');
+INSERT INTO Direct_Purchase VALUES (16525324, 'DP-HJ216', 'Q-36157', DATE '2024-04-05', DATE '2025-06-19', TO_DATE('17:54:47', 'HH24:MI:SS'), 'Completed', 'High', 'Against poor Democrat new whose couple.', 'Point along north stage.', 'C003');
+INSERT INTO Direct_Purchase VALUES (41230148, 'DP-HF137', 'Q-80277', DATE '2024-10-14', DATE '2025-01-02', TO_DATE('15:17:59', 'HH24:MI:SS'), 'Pending', 'Critical', 'Certainly task visit ball figure act.', 'Consumer series report in state happy.', 'C004');
+INSERT INTO Direct_Purchase VALUES (40375698, 'DP-WX457', 'Q-9393', DATE '2023-08-06', DATE '2025-06-17', TO_DATE('23:54:54', 'HH24:MI:SS'), 'Completed', 'High', 'Three recently among likely painting leader.', 'Country imagine hope suffer decade cost response coach.', 'C005');
+INSERT INTO Direct_Purchase VALUES (66021792, 'DP-XI509', 'Q-71672', DATE '2023-07-17', DATE '2025-02-16', TO_DATE('19:40:33', 'HH24:MI:SS'), 'Approved', 'Critical', 'Ground add economic will.', 'Measure foot simply.', 'C006');
+INSERT INTO Direct_Purchase VALUES (20145531, 'DP-AK522', 'Q-95637', DATE '2021-09-05', DATE '2025-02-06', TO_DATE('23:00:14', 'HH24:MI:SS'), 'Completed', 'Critical', 'Large property president week chance theory.', 'Quality set affect travel buy yourself change.', 'C007');
+INSERT INTO Direct_Purchase VALUES (91227664, 'DP-XL471', 'Q-31435', DATE '2022-01-21', DATE '2025-03-24', TO_DATE('19:36:17', 'HH24:MI:SS'), 'Approved', 'High', 'Memory produce right learn.', 'Summer say spring season young page become.', 'C008');
+INSERT INTO Direct_Purchase VALUES (55095214, 'DP-BC143', 'Q-30198', DATE '2021-02-03', DATE '2025-06-12', TO_DATE('20:04:59', 'HH24:MI:SS'), 'Rejected', 'High', 'Fall green firm.', 'Hotel among society voice too.', 'C009');
+INSERT INTO Direct_Purchase VALUES (25280459, 'DP-IU258', 'Q-19784', DATE '2023-08-04', DATE '2025-04-16', TO_DATE('04:10:12', 'HH24:MI:SS'), 'Completed', 'Critical', 'Something catch real.', 'Everybody year half inside.', 'C010');
+
+
+INSERT INTO Tender VALUES (37635003, 'TD-RC471', DATE '2020-02-02', 'Teresa Mueller', DATE '2025-04-19', DATE '2025-01-22', 'Huerta-Mcgee', 'Approved', 0, 'Open', 3653.72, 'C011');
+INSERT INTO Tender VALUES (46638688, 'TD-QR791', DATE '2021-11-29', 'Courtney Mccarthy', DATE '2025-06-06', DATE '2025-05-10', 'Ramsey PLC', 'Completed', 1, 'Selective', 2116.17, 'C012');
+INSERT INTO Tender VALUES (23376868, 'TD-ML917', DATE '2024-04-24', 'Tammy Oliver', DATE '2025-02-20', DATE '2025-03-28', 'Henderson Ltd', 'Approved', 0, 'Negotiated', 6379.66, 'C013');
+INSERT INTO Tender VALUES (10100024, 'TD-HT112', DATE '2022-08-16', 'Emily Fuller', DATE '2025-05-02', DATE '2025-03-01', 'Ford LLC', 'Completed', 1, 'Negotiated', 7225.62, 'C014');
+INSERT INTO Tender VALUES (50763701, 'TD-JH603', DATE '2021-04-29', 'Caitlin Lopez', DATE '2025-03-24', DATE '2025-05-08', 'Meadows Ltd', 'Completed', 0, 'Selective', 3148.58, 'C015');
+INSERT INTO Tender VALUES (10492639, 'TD-WU754', DATE '2024-06-03', 'Heidi Saunders', DATE '2025-06-06', DATE '2025-02-03', 'Robinson-Nixon', 'Completed', 0, 'Open', 1336.18, 'C016');
+INSERT INTO Tender VALUES (20001777, 'TD-VI817', DATE '2020-12-16', 'Scott Smith', DATE '2025-06-01', DATE '2025-03-27', 'Powers-Myers', 'Rejected', 0, 'Open', 9883.19, 'C017');
+INSERT INTO Tender VALUES (24743371, 'TD-UV385', DATE '2023-11-03', 'Tiffany Stevenson', DATE '2025-06-19', DATE '2025-06-09', 'Goodman Ltd', 'Rejected', 0, 'Negotiated', 3290.31, 'C018');
+INSERT INTO Tender VALUES (95748442, 'TD-UU336', DATE '2022-01-12', 'Andrew Aguirre', DATE '2025-04-09', DATE '2025-02-23', 'Collins PLC', 'Approved', 0, 'Negotiated', 1060.37, 'C019');
+INSERT INTO Tender VALUES (25785481, 'TD-VG940', DATE '2020-06-30', 'Sean Norton', DATE '2025-01-01', DATE '2025-02-13', 'Wilson, Ward and Bailey', 'Approved', 1, 'Selective', 5990.83, 'C020');
+
+
+
+INSERT INTO Stock VALUES ('S001', 'A01', 'New', 'Main Warehouse', TO_DATE('2025-06-01', 'YYYY-MM-DD'), '24636730');
+INSERT INTO Stock VALUES ('S002', 'A02', 'New', 'Warehouse 2', TO_DATE('2025-05-28', 'YYYY-MM-DD'), '57687653');
+INSERT INTO Stock VALUES ('S003', 'B01', 'New', 'Main Warehouse', TO_DATE('2025-06-05', 'YYYY-MM-DD'), '62651197');
+INSERT INTO Stock VALUES ('S004', 'B02', 'Used', 'Warehouse 3', TO_DATE('2025-06-02', 'YYYY-MM-DD'), '72174329');
+INSERT INTO Stock VALUES ('S005', 'C01', 'New', 'Warehouse 2', TO_DATE('2025-06-07', 'YYYY-MM-DD'), '87073414');
+INSERT INTO Stock VALUES ('S006', 'C02', 'New', 'Main Warehouse', TO_DATE('2025-06-10', 'YYYY-MM-DD'), '75790964');
+INSERT INTO Stock VALUES ('S007', 'D01', 'New', 'Warehouse 3', TO_DATE('2025-06-03', 'YYYY-MM-DD'), '91693353');
+INSERT INTO Stock VALUES ('S008', 'D02', 'New', 'Warehouse 2', TO_DATE('2025-06-09', 'YYYY-MM-DD'), '23413118');
+INSERT INTO Stock VALUES ('S009', 'E01', 'New', 'Main Warehouse', TO_DATE('2025-06-12', 'YYYY-MM-DD'), '79089661');
+INSERT INTO Stock VALUES ('S010', 'E02', 'New', 'Warehouse 1', TO_DATE('2025-06-04', 'YYYY-MM-DD'), '21880807');
+
+INSERT INTO Stock VALUES ('S011', 'F01', 'New', 'Main Warehouse', TO_DATE('2025-06-06', 'YYYY-MM-DD'), '24636730');
+INSERT INTO Stock VALUES ('S012', 'F02', 'New', 'Warehouse 3', TO_DATE('2025-06-08', 'YYYY-MM-DD'), '57687653');
+INSERT INTO Stock VALUES ('S013', 'G01', 'New', 'Warehouse 2', TO_DATE('2025-06-11', 'YYYY-MM-DD'), '62651197');
+INSERT INTO Stock VALUES ('S014', 'G02', 'New', 'Main Warehouse', TO_DATE('2025-06-05', 'YYYY-MM-DD'), '72174329');
+INSERT INTO Stock VALUES ('S015', 'H01', 'New', 'Warehouse 3', TO_DATE('2025-06-02', 'YYYY-MM-DD'), '87073414');
+INSERT INTO Stock VALUES ('S016', 'H02', 'New', 'Warehouse 2', TO_DATE('2025-06-09', 'YYYY-MM-DD'), '75790964');
+INSERT INTO Stock VALUES ('S017', 'I01', 'New', 'Main Warehouse', TO_DATE('2025-06-13', 'YYYY-MM-DD'), '91693353');
+INSERT INTO Stock VALUES ('S018', 'I02', 'New', 'Warehouse 1', TO_DATE('2025-06-07', 'YYYY-MM-DD'), '23413118');
+INSERT INTO Stock VALUES ('S019', 'J01', 'Ne', 'Main Warehouse', TO_DATE('2025-06-10', 'YYYY-MM-DD'), '79089661');
+INSERT INTO Stock VALUES ('S020', 'J02', 'New', 'Warehouse 3', TO_DATE('2025-06-08', 'YYYY-MM-DD'), '21880807');
+
+INSERT INTO Photocopier VALUES (1001, 'M1001', 'Ricoh Aficio MP 201', 'Ricoh', '3 Years', 'Received', '20 ppm', 'A4, A3', 'Print, Copy, Scan', 'Laser', 'S001');
+INSERT INTO Photocopier VALUES (1002, 'M1002', 'Ricoh IM C3000', 'Ricoh', '2 Years', 'Pending', '30 ppm', 'A4, A3, Legal', 'Print, Copy, Scan, Fax', 'Laser', 'S002');
+INSERT INTO Photocopier VALUES (1003, 'M1003', 'Ricoh MP C4504ex', 'Ricoh', '3 Years', 'Received', '45 ppm', 'A4, A3, Legal', 'Print, Copy, Scan', 'Laser', 'S003');
+INSERT INTO Photocopier VALUES (1004, 'M1004', 'Ricoh MP 3055', 'Ricoh', '2 Years', 'Received', '30 ppm', 'A4, A3', 'Print, Copy', 'Laser', 'S004');
+INSERT INTO Photocopier VALUES (1005, 'M1005', 'Ricoh SP 3710DN', 'Ricoh', '1 Year', 'Received', '32 ppm', 'A4, A5', 'Print only', 'Laser', 'S005');
+INSERT INTO Photocopier VALUES (1006, 'M1006', 'Ricoh IM 6000', 'Ricoh', '3 Years', 'Pending', '60 ppm', 'A4, A3', 'Print, Copy, Scan', 'Laser', 'S006');
+INSERT INTO Photocopier VALUES (1007, 'M1007', 'Ricoh MP C3003', 'Ricoh', '2 Years', 'Received', '30 ppm', 'A4, A3, Legal', 'Print, Copy, Scan, Fax', 'Laser', 'S007');
+INSERT INTO Photocopier VALUES (1008, 'M1008', 'Ricoh SP C840DN', 'Ricoh', '2 Years', 'Received', '45 ppm', 'A4, A5', 'Print only', 'Laser', 'S008');
+INSERT INTO Photocopier VALUES (1009, 'M1009', 'Ricoh IM C2000', 'Ricoh', '3 Years', 'Received', '20 ppm', 'A4, A3', 'Print, Copy, Scan', 'Laser', 'S009');
+INSERT INTO Photocopier VALUES (1010, 'M1010', 'Ricoh IM C400SRF', 'Ricoh', '3 Years', 'Pending', '40 ppm', 'A4, A3, Legal', 'Print, Copy, Scan, Staple', 'Laser', 'S010');
+
+
+
+
+
+INSERT INTO Ink VALUES (2001, 'INK-MP201-BK', 'Laser', 'Black', 'Ricoh Aficio MP 201', 'Ricoh Malaysia', TO_DATE('2025-01-10', 'YYYY-MM-DD'), 350.00, TO_DATE('2027-01-10', 'YYYY-MM-DD'), 'Ordered', 'S001');
+INSERT INTO Ink VALUES (2002, 'INK-C3000-C', 'Laser', 'Cyan', 'Ricoh IM C3000', 'Ricoh Malaysia', TO_DATE('2024-12-05', 'YYYY-MM-DD'), 420.00, TO_DATE('2026-12-05', 'YYYY-MM-DD'), 'Received', 'S002');
+INSERT INTO Ink VALUES (2003, 'INK-C3000-M', 'Laser', 'Magenta', 'Ricoh IM C3000', 'Ricoh Malaysia', TO_DATE('2024-11-15', 'YYYY-MM-DD'), 420.00, TO_DATE('2026-11-15', 'YYYY-MM-DD'), 'Pending', 'S003');
+INSERT INTO Ink VALUES (2004, 'INK-C3000-Y', 'Laser', 'Yellow', 'Ricoh IM C3000', 'Ricoh Malaysia', TO_DATE('2024-11-20', 'YYYY-MM-DD'), 420.00, TO_DATE('2026-11-20', 'YYYY-MM-DD'), 'Received', 'S004');
+INSERT INTO Ink VALUES (2005, 'INK-3055-BK', 'Laser', 'Black', 'Ricoh MP 3055', 'Ricoh Malaysia', TO_DATE('2025-02-01', 'YYYY-MM-DD'), 370.00, TO_DATE('2027-02-01', 'YYYY-MM-DD'), 'Ordered', 'S005');
+INSERT INTO Ink VALUES (2006, 'INK-SP3710-BK', 'Laser', 'Black', 'Ricoh SP 3710DN', 'Ricoh Malaysia', TO_DATE('2025-03-12', 'YYYY-MM-DD'), 280.00, TO_DATE('2027-03-12', 'YYYY-MM-DD'), 'Received', 'S006');
+INSERT INTO Ink VALUES (2007, 'INK-6000-BK', 'Laser', 'Black', 'Ricoh IM 6000', 'Ricoh Malaysia', TO_DATE('2025-04-05', 'YYYY-MM-DD'), 480.00, TO_DATE('2027-04-05', 'YYYY-MM-DD'), 'Pending', 'S007');
+INSERT INTO Ink VALUES (2008, 'INK-C3003-C', 'Laser', 'Cyan', 'Ricoh MP C3003', 'Ricoh Malaysia', TO_DATE('2025-01-25', 'YYYY-MM-DD'), 410.00, TO_DATE('2027-01-25', 'YYYY-MM-DD'), 'Ordered', 'S008');
+INSERT INTO Ink VALUES (2009, 'INK-C840DN-BK', 'Laser', 'Black', 'Ricoh SP C840DN', 'Ricoh Malaysia', TO_DATE('2025-05-10', 'YYYY-MM-DD'), 390.00, TO_DATE('2027-05-10', 'YYYY-MM-DD'), 'Received', 'S009');
+INSERT INTO Ink VALUES (2010, 'INK-C400SRF-C', 'Laser', 'Cyan', 'Ricoh IM C400SRF', 'Ricoh Malaysia', TO_DATE('2025-02-18', 'YYYY-MM-DD'), 440.00, TO_DATE('2027-02-18', 'YYYY-MM-DD'), 'Ordered', 'S010');
+
+
+
+
+INSERT INTO Feedback (Feedback_ID, Feedback_Title, Feedback_Submitted_By, Feedback_Submission_Date, Feedback_Rating, Feedback_Comments, Feedback_Type, Feedback_Status, Feedback_Satisfaction_Level, Feedback_Follow_Up_Respond, Feedback_Reviewed, Stock_ID)
+VALUES ('61816805', 'Threat song', 'Melissa Newton', DATE '2025-03-13', 2.3, 'Pass open real dark relationship occur enough each occur summer discussion surface blue.', 'Suggestion', 'Pending', 'Very Satisfied', 'Save anyone effort threat.', 'FALSE', 'S001');
+
+INSERT INTO Feedback (Feedback_ID, Feedback_Title, Feedback_Submitted_By, Feedback_Submission_Date, Feedback_Rating, Feedback_Comments, Feedback_Type, Feedback_Status, Feedback_Satisfaction_Level, Feedback_Follow_Up_Respond, Feedback_Reviewed, Stock_ID)
+VALUES ('36991990', 'Tree enough', 'Tracey Serrano', DATE '2025-02-20', 0.6, 'Take adult avoid smile other sing various tough year really adult.', 'Other', 'Pending', 'Neutral', 'Especially cut education support recently later thousand usually.', 'TRUE', 'S002');
+
+INSERT INTO Feedback (Feedback_ID, Feedback_Title, Feedback_Submitted_By, Feedback_Submission_Date, Feedback_Rating, Feedback_Comments, Feedback_Type, Feedback_Status, Feedback_Satisfaction_Level, Feedback_Follow_Up_Respond, Feedback_Reviewed, Stock_ID)
+VALUES ('30934737', 'Begin claim', 'Elizabeth Hood', DATE '2025-03-25', 3.0, 'Mouth hair poor drug some source.', 'Suggestion', 'Pending', 'Very Satisfied', 'Arrive side by media hospital model century how partner.', 'FALSE', 'S003');
+
+INSERT INTO Feedback (Feedback_ID, Feedback_Title, Feedback_Submitted_By, Feedback_Submission_Date, Feedback_Rating, Feedback_Comments, Feedback_Type, Feedback_Status, Feedback_Satisfaction_Level, Feedback_Follow_Up_Respond, Feedback_Reviewed, Stock_ID)
+VALUES ('62343293', 'Fight institution market rock', 'Jamie Roberts', DATE '2025-05-03', 2.6, 'Official trouble hot successful activity production determine.', 'Inquiry', 'Reviewed', 'Dissatisfied', 'Number though machine project serve drug page pass today.', 'FALSE', 'S004');
+
+INSERT INTO Feedback (Feedback_ID, Feedback_Title, Feedback_Submitted_By, Feedback_Submission_Date, Feedback_Rating, Feedback_Comments, Feedback_Type, Feedback_Status, Feedback_Satisfaction_Level, Feedback_Follow_Up_Respond, Feedback_Reviewed, Stock_ID)
+VALUES ('98150094', 'List lay run', 'George Black', DATE '2025-04-18', 2.6, 'Quite PM simple agency study prove.', 'Complaint', 'Closed', 'Very Satisfied', 'Contain go turn beat quickly grow.', 'TRUE', 'S005');
+
+INSERT INTO Feedback (Feedback_ID, Feedback_Title, Feedback_Submitted_By, Feedback_Submission_Date, Feedback_Rating, Feedback_Comments, Feedback_Type, Feedback_Status, Feedback_Satisfaction_Level, Feedback_Follow_Up_Respond, Feedback_Reviewed, Stock_ID)
+VALUES ('61699535', 'Necessary bag want', 'Jennifer Wolf', DATE '2025-04-03', 3.9, 'Win speak involve tonight important sport at tell little.', 'Other', 'Pending', 'Satisfied', 'Newspaper Mrs value theory professor second soon four while.', 'FALSE', 'S006');
+
+INSERT INTO Feedback (Feedback_ID, Feedback_Title, Feedback_Submitted_By, Feedback_Submission_Date, Feedback_Rating, Feedback_Comments, Feedback_Type, Feedback_Status, Feedback_Satisfaction_Level, Feedback_Follow_Up_Respond, Feedback_Reviewed, Stock_ID)
+VALUES ('37549383', 'Material drop no camera', 'Mr. Alex Mendoza', DATE '2025-03-02', 2.7, 'Long meet physical ground where parent family get.', 'Inquiry', 'Pending', 'Neutral', 'Magazine lose because stage top key official.', 'FALSE', 'S007');
+
+INSERT INTO Feedback (Feedback_ID, Feedback_Title, Feedback_Submitted_By, Feedback_Submission_Date, Feedback_Rating, Feedback_Comments, Feedback_Type, Feedback_Status, Feedback_Satisfaction_Level, Feedback_Follow_Up_Respond, Feedback_Reviewed, Stock_ID)
+VALUES ('50924301', 'Group point', 'Rachel Hamilton', DATE '2025-06-09', 3.3, 'Force role we wide establish win teach explain stage hair.', 'Suggestion', 'Closed', 'Dissatisfied', 'Take pretty where major it.', 'TRUE', 'S008');
+
+INSERT INTO Feedback (Feedback_ID, Feedback_Title, Feedback_Submitted_By, Feedback_Submission_Date, Feedback_Rating, Feedback_Comments, Feedback_Type, Feedback_Status, Feedback_Satisfaction_Level, Feedback_Follow_Up_Respond, Feedback_Reviewed, Stock_ID)
+VALUES ('83514758', 'International then number citizen', 'Robert Johnson', DATE '2025-01-23', 3.9, 'Education work sea almost cost color investment upon road career opportunity share bit.', 'Suggestion', 'Closed', 'Very Satisfied', 'Certainly design second morning environmental story conference.', 'FALSE', 'S009');
+
+INSERT INTO Feedback (Feedback_ID, Feedback_Title, Feedback_Submitted_By, Feedback_Submission_Date, Feedback_Rating, Feedback_Comments, Feedback_Type, Feedback_Status, Feedback_Satisfaction_Level, Feedback_Follow_Up_Respond, Feedback_Reviewed, Stock_ID)
+VALUES ('48075277', 'Although statement rich attorney left', 'Robert Smith', DATE '2025-05-15', 1.0, 'Television once way sure involve watch recently though father particular toward.', 'Other', 'Reviewed', 'Satisfied', 'Why key person kind officer.', 'TRUE' , 'S010');
+
+
+
+
+
+INSERT INTO Service (
+  Service_ID, Service_Sequence_No, Contract_ID, Service_Start_Date, Service_Completed_Date,
+  Service_Issue_Description, Service_Type, Service_Status, Service_Cost, Service_Resolution, Service_Rating
+) VALUES 
+(2201, 1, 'C001', DATE '2023-08-01', DATE '2023-08-02', 'Paper jam in tray', 'Repair', 'Completed', 150.00, 'Cleared jammed paper', 1);
+
+INSERT INTO Service (
+  Service_ID, Service_Sequence_No, Contract_ID, Service_Start_Date, Service_Completed_Date,
+  Service_Issue_Description, Service_Type, Service_Status, Service_Cost, Service_Resolution, Service_Rating
+) VALUES 
+(2202, 2, 'C002', DATE '2023-07-10', DATE '2023-07-11', 'Low print quality', 'Maintenance', 'Completed', 120.00, 'Cleaned toner unit', 4);
+
+INSERT INTO Service (
+  Service_ID, Service_Sequence_No, Contract_ID, Service_Start_Date, Service_Completed_Date,
+  Service_Issue_Description, Service_Type, Service_Status, Service_Cost, Service_Resolution, Service_Rating
+) VALUES 
+(2203, 3, 'C003', DATE '2023-06-15', DATE '2023-06-16', 'No power', 'Repair', 'Completed', 200.00, 'Replaced power cable', 3);
+
+INSERT INTO Service (
+  Service_ID, Service_Sequence_No, Contract_ID, Service_Start_Date, Service_Completed_Date,
+  Service_Issue_Description, Service_Type, Service_Status, Service_Cost, Service_Resolution, Service_Rating
+) VALUES 
+(2204, 4, 'C004', DATE '2023-05-20', DATE '2023-05-22', 'Regular check-up', 'Maintenance', 'Completed', 100.00, 'Performed diagnostics', 5);
+
+INSERT INTO Service (
+  Service_ID, Service_Sequence_No, Contract_ID, Service_Start_Date, Service_Completed_Date,
+  Service_Issue_Description, Service_Type, Service_Status, Service_Cost, Service_Resolution, Service_Rating
+) VALUES 
+(2205, 5, 'C005', DATE '2023-04-01', DATE '2023-04-01', 'Paper feed error', 'Repair', 'Completed', 180.00, 'Replaced feed roller', 2);
+
+INSERT INTO Service (
+  Service_ID, Service_Sequence_No, Contract_ID, Service_Start_Date, Service_Completed_Date,
+  Service_Issue_Description, Service_Type, Service_Status, Service_Cost, Service_Resolution, Service_Rating
+) VALUES 
+(2206, 6, 'C006', DATE '2023-03-10', DATE '2023-03-12', 'Strange noise during print', 'Maintenance', 'Completed', 140.00, 'Lubricated moving parts', 1);
+
+INSERT INTO Service (
+  Service_ID, Service_Sequence_No, Contract_ID, Service_Start_Date, Service_Completed_Date,
+  Service_Issue_Description, Service_Type, Service_Status, Service_Cost, Service_Resolution, Service_Rating
+) VALUES 
+(2207, 7, 'C007', DATE '2023-02-05', DATE '2023-02-06', 'Error code E202', 'Repair', 'Completed', 160.00, 'Reset internal settings', 3);
+
+INSERT INTO Service (
+  Service_ID, Service_Sequence_No, Contract_ID, Service_Start_Date, Service_Completed_Date,
+  Service_Issue_Description, Service_Type, Service_Status, Service_Cost, Service_Resolution, Service_Rating
+) VALUES 
+(2208, 8, 'C008', DATE '2023-01-18', DATE '2023-01-20', 'Network printing issue', 'Installation', 'Completed', 190.00, 'Reconfigured network', 4);
+
+INSERT INTO Service (
+  Service_ID, Service_Sequence_No, Contract_ID, Service_Start_Date, Service_Completed_Date,
+  Service_Issue_Description, Service_Type, Service_Status, Service_Cost, Service_Resolution, Service_Rating
+) VALUES 
+(2209, 9, 'C009', DATE '2022-12-10', DATE '2022-12-12', 'Toner not detected', 'Repair', 'Completed', 130.00, 'Cleaned toner contacts', 3);
+
+INSERT INTO Service (
+  Service_ID, Service_Sequence_No, Contract_ID, Service_Start_Date, Service_Completed_Date,
+  Service_Issue_Description, Service_Type, Service_Status, Service_Cost, Service_Resolution, Service_Rating
+) VALUES 
+(2210, 10, 'C010', DATE '2022-11-25', DATE '2022-11-26', 'Preventive maintenance', 'Maintenance', 'Completed', 110.00, 'Checked all components', 2);
+
+
+
+
+
+INSERT INTO Training_Certificate VALUES (1, 'TC001', 1001, 'Fire Safety', 'HRDF', DATE '2023-01-15', DATE '2025-01-15', 'Basic', 'http://example.com/tc001', '2 Years', 'TRUE', 'TRUE', 'HR Accredited');
+
+INSERT INTO Training_Certificate VALUES (2, 'TC002', 1002, 'Machine Handling', 'OSHA', DATE '2022-07-01', DATE '2024-07-01', 'Advanced', 'http://example.com/tc002', '2 Years', 'TRUE', 'FALSE', 'ISO Certified');
+
+INSERT INTO Training_Certificate VALUES (3, 'TC003', 1003, 'Electrical Safety', 'NIOSH', DATE '2023-03-10', DATE '2025-03-10', 'Intermediate', 'http://example.com/tc003', '2 Years', 'FALSE', 'TRUE', 'HR Accredited');
+
+INSERT INTO Training_Certificate VALUES (4, 'TC004', 1004, 'Equipment Repair', 'OSHA', DATE '2022-09-05', DATE '2024-09-05', 'Basic', 'http://example.com/tc004', '2 Years', 'TRUE', 'TRUE', 'ISO Certified');
+
+INSERT INTO Training_Certificate VALUES (5, 'TC005', 1005, 'First Aid', 'HRDF', DATE '2023-05-20', DATE '2025-05-20', 'Basic', 'http://example.com/tc005', '2 Years', 'FALSE', 'TRUE', 'HR Accredited');
+
+INSERT INTO Training_Certificate VALUES (6, 'TC006', 1006, 'HSE Awareness', 'NIOSH', DATE '2022-12-01', DATE '2024-12-01', 'Intermediate', 'http://example.com/tc006', '2 Years', 'TRUE', 'FALSE', 'ISO Certified');
+
+INSERT INTO Training_Certificate VALUES (7, 'TC007', 1007, 'Fire Drill Basics', 'HRDF', DATE '2023-02-17', DATE '2025-02-17', 'Basic', 'http://example.com/tc007', '2 Years', 'TRUE', 'TRUE', 'None');
+
+INSERT INTO Training_Certificate VALUES (8, 'TC008', 1008, 'Chemical Handling', 'OSHA', DATE '2022-06-11', DATE '2024-06-11', 'Advanced', 'http://example.com/tc008', '2 Years', 'TRUE', 'FALSE', 'ISO Certified');
+
+INSERT INTO Training_Certificate VALUES (9, 'TC009', 1009, 'Ladder Safety', 'NIOSH', DATE '2023-04-05', DATE '2025-04-05', 'Basic', 'http://example.com/tc009', '2 Years', 'FALSE', 'TRUE', 'HR Accredited');
+
+INSERT INTO Training_Certificate VALUES (10, 'TC010', 1010, 'Lockout Tagout', 'OSHA', DATE '2023-06-20', DATE '2025-06-20', 'Intermediate', 'http://example.com/tc010', '2 Years', 'TRUE', 'TRUE', 'ISO Certified');
+
+
+
+
+INSERT INTO Technician VALUES ('TECH001', 'REF-TECH-MY-2023-01', 'West Malaysia', 12, '4', 5, 24.3, 'Diploma in Electrical Eng', 'WXY 1234', 'Morning', 'L', NULL, 'E01');
+INSERT INTO Technician VALUES ('TECH002', 'REF-TECH-MY-2023-02', 'East Malaysia', 8, '3', 3, 26.7, 'Certificate in HVAC', 'SAB 5678', 'Afternoon', 'M', NULL, 'E02');
+INSERT INTO Technician VALUES ('TECH003', 'REF-TECH-MY-2023-03', 'Malaysia', 15, '5', 8, 22.1, 'Degree in Mechanical Eng', 'BKK 9012', 'Flexi', 'XL', NULL, 'E03');
+INSERT INTO Technician VALUES ('TECH004', 'REF-TECH-MY-2023-04', 'West Malaysia', 6, '2', 2, 28.9, 'Vocational Training', 'JHR 3456', 'Night', 'S', NULL, 'E04');
+INSERT INTO Technician VALUES ('TECH005', 'REF-TECH-MY-2023-05', 'East Malaysia', 20, '5', 10, 23.5, 'Advanced Diploma in Electronics', 'KUL 7890', 'Morning', 'M', NULL, 'E05');
+INSERT INTO Technician VALUES ('TECH006', 'REF-TECH-MY-2023-06', 'West Malaysia', 10, '3', 4, 25.2, 'Certificate in Plumbing', 'PNG 1234', 'Afternoon', 'L', NULL, 'E06');
+INSERT INTO Technician VALUES ('TECH007', 'REF-TECH-MY-2023-07', 'Malaysia', 18, '4', 7, 27.8, 'Diploma in Automotive Tech', 'MLK 5678', 'Flexi', 'XL', NULL, 'E07');
+INSERT INTO Technician VALUES ('TECH008', 'REF-TECH-MY-2023-08', 'East Malaysia', 5, '2', 1, 29.3, 'Technical School Certificate', 'TRG 9012', 'Morning', 'S', NULL, 'E08');
+INSERT INTO Technician VALUES ('TECH009', 'REF-TECH-MY-2023-09', 'West Malaysia', 14, '4', 6, 24.6, 'Degree in Mechatronics', 'PJY 3456', 'Night', 'M', NULL, 'E09');
+INSERT INTO Technician VALUES ('TECH010', 'REF-TECH-MY-2023-10', 'Malaysia', 9, '3', 3, 26.1, 'Diploma in Instrumentation', 'SRW 7890', 'Afternoon', 'L', NULL, 'E10');
+
+
+
+INSERT INTO Emergency_Contact VALUES (1, 'EC001', 'TECH001', 1, '012-3456789', 'emc1@example.com', '123 Tech Road, City A', 'Asthma', 'SMS', DATE '2024-06-01', 'Active');
+INSERT INTO Emergency_Contact VALUES (2, 'EC002', 'TECH002', 2, '013-4567890', 'emc2@example.com', '45 Block B, Cyberjaya', 'Diabetes', 'Email', DATE '2024-05-25', 'Active');
+INSERT INTO Emergency_Contact VALUES (3, 'EC003', 'TECH003', 1, '014-5678901', 'emc3@example.com', '78 Jalan Aman, Ipoh', 'None', 'Call', DATE '2024-06-10', 'Active');
+INSERT INTO Emergency_Contact VALUES (4, 'EC004', 'TECH004', 3, '015-6789012', 'emc4@example.com', '22 Bukit Indah, Johor', 'Hypertension', 'SMS', DATE '2024-06-15', 'Active');
+INSERT INTO Emergency_Contact VALUES (5, 'EC005', 'TECH005', 1, '016-7890123', 'emc5@example.com', '3C Flat Meru, Klang', 'Asthma', 'Email', DATE '2024-06-18', 'Active');
+INSERT INTO Emergency_Contact VALUES (6, 'EC006', 'TECH006', 2, '017-8901234', 'emc6@example.com', '12 Lorong Damai, Penang', 'None', 'SMS', DATE '2024-06-14', 'Active');
+INSERT INTO Emergency_Contact VALUES (7, 'EC007', 'TECH007', 1, '018-9012345', 'emc7@example.com', '99 Taman Sari, Melaka', 'Diabetes', 'Call', DATE '2024-06-11', 'Active');
+INSERT INTO Emergency_Contact VALUES (8, 'EC008', 'TECH008', 3, '019-0123456', 'emc8@example.com', '7 Jalan Tepi, Alor Setar', 'Asthma', 'Email', DATE '2024-06-13', 'Active');
+INSERT INTO Emergency_Contact VALUES (9, 'EC009', 'TECH009', 2, '010-1234567', 'emc9@example.com', '6A Jalan Ilmu, Shah Alam', 'None', 'SMS', DATE '2024-06-09', 'Active');
+INSERT INTO Emergency_Contact VALUES (10, 'EC010', 'TECH010', 1, '011-2345678', 'emc10@example.com', '50 Seksyen 5, Petaling Jaya', 'Hypertension', 'Call', DATE '2024-06-05', 'Active');
+
+
+
+
+INSERT INTO Invoice (
+  Invoice_ID, Invoice_Ref_Code, Invoice_Date, Invoice_Created_Date, Invoice_Amount, Invoice_Tax_Rate, Invoice_Discount, Invoice_Total_Amount, Invoice_Payment_Status, Invoice_Notes, Contract_ID, Sales_Person_ID
+) VALUES
+(68981784, 'IV-WK624', DATE '2025-02-20', DATE '2025-04-21', 7090.76, 0.06, 155.77, 7360.44, 'Pending', 'Thank you for your business! Payment due within 14 days.', 'C001', 'SP01');
+
+INSERT INTO Invoice VALUES
+(41958195, 'IV-CG880', DATE '2025-03-13', DATE '2025-05-07', 5044.77, 0.05, 379.99, 4917.02, 'Completed', 'Please make payment to CIMB 123-456-789. No refunds after 7 days.', 'C002', 'SP02');
+
+INSERT INTO Invoice VALUES
+(77078758, 'IV-RP511', DATE '2025-05-11', DATE '2025-06-21', 7798.51, 0.1, 109.22, 8469.14, 'Rejected', 'Payment includes 6% SST. Delivery received by Mr. Haziq on 25 June 2025.', 'C003', 'SP03');
+
+INSERT INTO Invoice VALUES
+(67657692, 'IV-PZ375', DATE '2025-01-06', DATE '2025-02-25', 7641.60, 0.09, 372.77, 7956.57, 'Approved', 'Payment to be made in two instalments, as agreed.', 'C004', 'SP04');
+
+INSERT INTO Invoice VALUES
+(78917830, 'IV-VD649', DATE '2025-06-13', DATE '2025-03-20', 4438.25, 0.08, 222.05, 4571.26, 'Approved', 'Invoice covers maintenance for June 2025. Call us for support.', 'C005', 'SP05');
+
+INSERT INTO Invoice VALUES
+(56616134, 'IV-BT537', DATE '2025-02-25', DATE '2025-03-26', 8558.86, 0.07, 25.52, 9132.46, 'Pending', '5% discount applied for early settlement before 5 July 2025.', 'C006', 'SP06');
+
+INSERT INTO Invoice VALUES
+(67845239, 'IV-SM539', DATE '2025-01-26', DATE '2025-04-29', 3114.42, 0.1, 199.43, 3226.43, 'Rejected', 'Goods delivered to Kuantan warehouse. Signed by En. Farez.', 'C007', 'SP07');
+
+INSERT INTO Invoice VALUES
+(84558036, 'IV-XA818', DATE '2025-05-31', DATE '2025-04-09', 5309.83, 0.07, 163.78, 5517.74, 'Completed', 'Cheques payable to “XYZ Resources”.', 'C008', 'SP08');
+
+INSERT INTO Invoice VALUES
+(61786028, 'IV-BY759', DATE '2025-03-03', DATE '2025-02-18', 2621.85, 0.07, 383.40, 2421.98, 'Rejected', 'Project Ref: UTP-MEDIA-0725. Please quote this in all correspondence.', 'C009', 'SP09');
+
+INSERT INTO Invoice VALUES
+(88326395, 'IV-QL475', DATE '2025-04-09', DATE '2025-04-19', 7171.63, 0.05, 230.02, 7300.19, 'Completed', 'Late payments are subject to 1.5% monthly interest. Thank you for choosing us.', 'C010', 'SP10');
+
+
+
+
+INSERT INTO Delivery VALUES
+('D001', 'TRK-0001', DATE '2025-06-01', DATE '2025-06-02', 'DHL', 'Van', TIMESTAMP '2025-06-02 10:30:00', 'Accepted', 'None', 'Intact', 'C001', '24636730', 'CRN001', 'PIC001', 'SP01', 76878741);
+
+INSERT INTO Delivery VALUES
+('D002', 'TRK-0002', DATE '2025-06-03', DATE '2025-06-03', 'J&T Express', 'Van', TIMESTAMP '2025-06-03 11:00:00', 'Accepted', 'None', 'Minor damage', 'C002', '57687653', 'CRN002', 'PIC002', 'SP02', 63048870);
+
+INSERT INTO Delivery VALUES
+('D003', 'TRK-0003', DATE '2025-06-05', DATE '2025-06-06', 'GDex', 'Truck', TIMESTAMP '2025-06-06 13:00:00', 'Accepted', 'Slight dent on box', 'Intact', 'C003', '62651197', 'CRN003', 'PIC003', 'SP03', 16175132);
+
+INSERT INTO Delivery VALUES
+('D004', 'TRK-0004', DATE '2025-06-07', DATE '2025-06-07', 'DHL', 'Van', TIMESTAMP '2025-06-07 09:30:00', 'Accepted', 'None', 'Intact', 'C004', '72174329', 'CRN004', 'PIC004', 'SP04', 70604189);
+
+INSERT INTO Delivery VALUES
+('D005', 'TRK-0005', DATE '2025-06-08', DATE '2025-06-09', 'PosLaju', 'Truck', TIMESTAMP '2025-06-09 15:00:00', 'Accepted', 'Damaged equipment', 'Severely damaged', 'C005', '87073414', 'CRN005', 'PIC005', 'SP05', 81478419);
+
+INSERT INTO Delivery VALUES
+('D006', 'TRK-0006', DATE '2025-06-10', DATE '2025-06-11', 'J&T Express', 'Van', TIMESTAMP '2025-06-11 10:00:00', 'Accepted', 'None', 'Intact', 'C006', '75790964', 'CRN006', 'PIC006', 'SP06', 18254278);
+
+INSERT INTO Delivery VALUES
+('D007', 'TRK-0007', DATE '2025-06-12', DATE '2025-06-12', 'GDex', 'Truck', TIMESTAMP '2025-06-12 14:00:00', 'Accepted', 'None', 'Intact', 'C007', '91693353', 'CRN007', 'PIC007', 'SP07', 70504306);
+
+INSERT INTO Delivery VALUES
+('D008', 'TRK-0008', DATE '2025-06-13', DATE '2025-06-14', 'DHL', 'Van', TIMESTAMP '2025-06-14 16:00:00', 'Accepted', 'None', 'Intact', 'C008', '23413118', 'CRN008', 'PIC008', 'SP08', 64963010);
+
+INSERT INTO Delivery VALUES
+('D009', 'TRK-0009', DATE '2025-06-15', DATE '2025-06-16', 'PosLaju', 'Truck', TIMESTAMP '2025-06-16 12:00:00', 'Accepted', 'Torn outer wrapping', 'Intact', 'C009', '79089661', 'CRN009', 'PIC009', 'SP09', 14460008);
+
+INSERT INTO Delivery VALUES
+('D010', 'TRK-0010', DATE '2025-06-17', DATE '2025-06-17', 'J&T Express', 'Van', TIMESTAMP '2025-06-17 09:00:00', 'Accepted', 'None', 'Intact', 'C010', '21880807', 'CRN010', 'PIC010', 'SP10', 66885170);
+
+
+
+
+ INSERT INTO Payment_Record (PR_ID,PR_Ref_Code,PR_Date,PR_Amount_Paid,PR_Method,PR_Status,PR_Received,PR_Created,PR_Currency,Invoice_ID,Sales_Person_ID,Delivery_ID,Supplier_ID) VALUES ('76878741', 'PR-VD606', DATE '2025-05-04', '2037.63', 'Bank Transfer', 'Rejected', DATE '2025-06-17', DATE '2025-02-13', 'EUR', '61786028', 'SP01', 'D001', '24636730');
+
+INSERT INTO Payment_Record (PR_ID,PR_Ref_Code,PR_Date,PR_Amount_Paid,PR_Method,PR_Status,PR_Received,PR_Created,PR_Currency,Invoice_ID,Sales_Person_ID,Delivery_ID,Supplier_ID) VALUES ('63048870', 'PR-DD357', DATE '2025-03-11', '7869.1', 'Bank Transfer', 'Rejected', DATE '2025-04-26', DATE '2025-05-14', 'MYR', '77078758', 'SP02', 'D002', '57687653');
+
+INSERT INTO Payment_Record (PR_ID,PR_Ref_Code,PR_Date,PR_Amount_Paid,PR_Method,PR_Status,PR_Received,PR_Created,PR_Currency,Invoice_ID,Sales_Person_ID,Delivery_ID,Supplier_ID) VALUES ('16175132', 'PR-GC741', DATE '2025-02-14', '6726.07', 'Bank Transfer', 'Approved', DATE '2025-04-21', DATE '2025-06-12', 'EUR', '67845239', 'SP03' , 'D003' , '62651197');
+
+ INSERT INTO Payment_Record (PR_ID,PR_Ref_Code,PR_Date,PR_Amount_Paid,PR_Method,PR_Status,PR_Received,PR_Created,PR_Currency,Invoice_ID,Sales_Person_ID,Delivery_ID,Supplier_ID) VALUES ('70604189', 'PR-AY955', DATE '2025-02-06', '355.62', 'Cheque', 'Approved', DATE '2025-02-12', DATE '2025-02-02', 'EUR', '84558036', 'SP04', 'D004', '72174329');
+
+INSERT INTO Payment_Record (PR_ID,PR_Ref_Code,PR_Date,PR_Amount_Paid,PR_Method,PR_Status,PR_Received,PR_Created,PR_Currency,Invoice_ID,Sales_Person_ID,Delivery_ID,Supplier_ID) VALUES ('81478419', 'PR-OK551', DATE '2025-04-04', '7545.76', 'Bank Transfer', 'Approved', DATE '2025-04-18', DATE '2025-03-18', 'USD', '84558036', 'SP05', 'D005', '87073414');
+
+INSERT INTO Payment_Record (PR_ID,PR_Ref_Code,PR_Date,PR_Amount_Paid,PR_Method,PR_Status,PR_Received,PR_Created,PR_Currency,Invoice_ID,Sales_Person_ID,Delivery_ID,Supplier_ID) VALUES ('18254278', 'PR-LF892', DATE '2025-05-30', '3620.74', 'Bank Transfer', 'Approved', DATE '2025-04-05', DATE '2025-02-07', 'MYR', '56616134', 'SP06', 'D006', '75790964');
+
+INSERT INTO Payment_Record (PR_ID, PR_Ref_Code, PR_Date, PR_Amount_Paid, PR_Method, PR_Status, PR_Received, PR_Created, PR_Currency, Invoice_ID, Sales_Person_ID, Delivery_ID, Supplier_ID) VALUES ('70504306', 'PR-LL320', DATE '2025-05-09', '5847.67', 'Bank Transfer', 'Pending', DATE '2025-05-18', DATE '2025-02-13', 'USD', '77078758', 'SP07', 'D007', '91693353');
+
+INSERT INTO Payment_Record (PR_ID, PR_Ref_Code, PR_Date, PR_Amount_Paid, PR_Method, PR_Status, PR_Received, PR_Created, PR_Currency, Invoice_ID, Sales_Person_ID, Delivery_ID, Supplier_ID) VALUES ('64963010', 'PR-OR871', DATE '2025-03-11', '2214.93', 'Bank Transfer', 'Completed', DATE '2025-04-17', DATE '2025-01-08', 'MYR', '67845239', 'SP08', 'D008', '23413118');
+
+INSERT INTO Payment_Record (PR_ID, PR_Ref_Code, PR_Date, PR_Amount_Paid, PR_Method, PR_Status, PR_Received, PR_Created, PR_Currency, Invoice_ID, Sales_Person_ID, Delivery_ID, Supplier_ID) VALUES ('14460008', 'PR-ZD525', DATE '2025-01-06', '4456.08', 'Credit Card', 'Pending', DATE '2025-04-15', DATE '2025-05-10', 'USD', '77078758', 'SP09', 'D009', '79089661');
+
+INSERT INTO Payment_Record (PR_ID, PR_Ref_Code, PR_Date, PR_Amount_Paid, PR_Method, PR_Status, PR_Received, PR_Created, PR_Currency, Invoice_ID, Sales_Person_ID, Delivery_ID, Supplier_ID) VALUES ('66885170', 'PR-SG595', DATE '2025-05-03', '7058.03', 'Bank Transfer', 'Rejected', DATE '2025-03-05', DATE '2025-05-23', 'EUR', '84558036', 'SP10', 'D010', '21880807');
+
+
+
+
+INSERT INTO Equipment VALUES
+(1201, 'EQ001', 'Drill Machine', 'HP', 'Model-332',
+ TO_DATE('2023-09-07', 'YYYY-MM-DD'), TO_DATE('2026-08-05', 'YYYY-MM-DD'),
+ 'Steel', 'Office A', 'Active', 
+ 'D001', '24636730');
+
+INSERT INTO Equipment VALUES
+(1202, 'EQ002', 'Drill Machine', 'Hitachi', 'Model-382',
+ TO_DATE('2022-10-31', 'YYYY-MM-DD'), TO_DATE('2025-09-16', 'YYYY-MM-DD'),
+ 'Steel', 'Office B', 'Active', 
+ 'D002', '57687653');
+
+INSERT INTO Equipment VALUES
+(1203, 'EQ003', 'Laser Printer', 'Samsung', 'Model-658',
+ TO_DATE('2023-08-26', 'YYYY-MM-DD'), TO_DATE('2026-06-29', 'YYYY-MM-DD'),
+ 'Steel', 'Warehouse B', 'Inactive', 
+ 'D003', '62651197');
+
+INSERT INTO Equipment VALUES
+(1204, 'EQ004', 'Drill Machine', 'Panasonic', 'Model-858',
+ TO_DATE('2024-01-10', 'YYYY-MM-DD'), TO_DATE('2028-03-25', 'YYYY-MM-DD'),
+ 'Aluminum', 'Office A', 'Active', 
+ 'D004', '72174329');
+
+INSERT INTO Equipment VALUES
+(1205, 'EQ005', 'Drill Machine', 'Panasonic', 'Model-228',
+ TO_DATE('2023-05-03', 'YYYY-MM-DD'), TO_DATE('2027-01-19', 'YYYY-MM-DD'),
+ 'Plastic', 'Office B', 'Inactive', 
+ 'D005', '87073414');
+
+INSERT INTO Equipment VALUES
+(1206, 'EQ006', 'Drill Machine', 'HP', 'Model-708',
+ TO_DATE('2022-09-24', 'YYYY-MM-DD'), TO_DATE('2027-03-22', 'YYYY-MM-DD'),
+ 'Plastic', 'Office B', 'Active', 
+ 'D006', '75790964');
+
+INSERT INTO Equipment VALUES
+(1207, 'EQ007', 'Welding Kit', 'Hitachi', 'Model-553',
+ TO_DATE('2024-06-07', 'YYYY-MM-DD'), TO_DATE('2025-07-02', 'YYYY-MM-DD'),
+ 'Steel', 'Warehouse B', 'Inactive', 
+ 'D007', '91693353');
+
+INSERT INTO Equipment VALUES
+(1208, 'EQ008', 'Cooling Fan', 'Hitachi', 'Model-481',
+ TO_DATE('2023-05-12', 'YYYY-MM-DD'), TO_DATE('2028-03-06', 'YYYY-MM-DD'),
+ 'Plastic', 'Office B', 'Active', 
+ 'D008', '23413118');
+
+INSERT INTO Equipment VALUES
+(1209, 'EQ009', 'Laser Printer', 'Samsung', 'Model-921',
+ TO_DATE('2023-02-14', 'YYYY-MM-DD'), TO_DATE('2025-06-27', 'YYYY-MM-DD'),
+ 'Aluminum', 'Office A', 'Inactive', 
+ 'D009', '79089661');
+
+INSERT INTO Equipment VALUES
+(1210, 'EQ010', 'Cooling Fan', 'Bosch', 'Model-985',
+ TO_DATE('2022-08-06', 'YYYY-MM-DD'), TO_DATE('2027-06-02', 'YYYY-MM-DD'),
+ 'Plastic', 'Warehouse B', 'Active', 
+ 'D010', '21880807');
+
+
+
+INSERT INTO Service_Equipment (Service_ID, Equipment_ID) VALUES (2201, 1201);
+INSERT INTO Service_Equipment (Service_ID, Equipment_ID) VALUES (2202, 1202);
+INSERT INTO Service_Equipment (Service_ID, Equipment_ID) VALUES (2203, 1203);
+INSERT INTO Service_Equipment (Service_ID, Equipment_ID) VALUES (2204, 1204);
+INSERT INTO Service_Equipment (Service_ID, Equipment_ID) VALUES (2205, 1205);
+INSERT INTO Service_Equipment (Service_ID, Equipment_ID) VALUES (2206, 1206);
+INSERT INTO Service_Equipment (Service_ID, Equipment_ID) VALUES (2207, 1207);
+INSERT INTO Service_Equipment (Service_ID, Equipment_ID) VALUES (2208, 1208);
+INSERT INTO Service_Equipment (Service_ID, Equipment_ID) VALUES (2209, 1209);
+INSERT INTO Service_Equipment (Service_ID, Equipment_ID) VALUES (2210, 1210);
+
+
+
+
+INSERT INTO TrainingCertificate_Employee VALUES ('1', 'E01');
+INSERT INTO TrainingCertificate_Employee VALUES ('2', 'E02');
+INSERT INTO TrainingCertificate_Employee VALUES ('3', 'E03');
+INSERT INTO TrainingCertificate_Employee VALUES ('4', 'E04');
+INSERT INTO TrainingCertificate_Employee VALUES ('5', 'E05');
+INSERT INTO TrainingCertificate_Employee VALUES ('6', 'E06');
+INSERT INTO TrainingCertificate_Employee VALUES ('7', 'E07');
+INSERT INTO TrainingCertificate_Employee VALUES ('8', 'E08');
+INSERT INTO TrainingCertificate_Employee VALUES ('9', 'E09');
+INSERT INTO TrainingCertificate_Employee VALUES ('10', 'E10');
+
+
+
+
+INSERT INTO Training_Employee VALUES (1001, 'E01');
+INSERT INTO Training_Employee VALUES (1002, 'E02');
+INSERT INTO Training_Employee VALUES (1003, 'E03');
+INSERT INTO Training_Employee VALUES (1004, 'E04');
+INSERT INTO Training_Employee VALUES (1005, 'E05');
+INSERT INTO Training_Employee VALUES (1006, 'E06');
+INSERT INTO Training_Employee VALUES (1007, 'E07');
+INSERT INTO Training_Employee VALUES (1008, 'E08');
+INSERT INTO Training_Employee VALUES (1009, 'E09');
+INSERT INTO Training_Employee VALUES (1010, 'E10');
+
+
+
+INSERT INTO Training_Department VALUES (1001, 'DEP001');
+INSERT INTO Training_Department VALUES (1002, 'DEP002');
+INSERT INTO Training_Department VALUES (1003, 'DEP003');
+INSERT INTO Training_Department VALUES (1004, 'DEP004');
+INSERT INTO Training_Department VALUES (1005, 'DEP005');
+INSERT INTO Training_Department VALUES (1006, 'DEP006');
+INSERT INTO Training_Department VALUES (1007, 'DEP007');
+INSERT INTO Training_Department VALUES (1008, 'DEP008');
+INSERT INTO Training_Department VALUES (1009, 'DEP009');
+INSERT INTO Training_Department VALUES (1010, 'DEP010');
+
+
+
+
+
+INSERT INTO Technician_Service VALUES ('TECH001', 2201);
+INSERT INTO Technician_Service VALUES ('TECH002', 2202);
+INSERT INTO Technician_Service VALUES ('TECH003', 2203);
+INSERT INTO Technician_Service VALUES ('TECH004', 2204);
+INSERT INTO Technician_Service VALUES ('TECH005', 2205);
+INSERT INTO Technician_Service VALUES ('TECH006', 2206);
+INSERT INTO Technician_Service VALUES ('TECH007', 2207);
+INSERT INTO Technician_Service VALUES ('TECH008', 2208);
+INSERT INTO Technician_Service VALUES ('TECH009', 2209);
+INSERT INTO Technician_Service VALUES ('TECH010', 2210);
+
+
+
+INSERT INTO Delivery_Stock (Delivery_ID, Stock_ID) VALUES ('D001', 'S001');
+INSERT INTO Delivery_Stock (Delivery_ID, Stock_ID) VALUES ('D002', 'S002');
+INSERT INTO Delivery_Stock (Delivery_ID, Stock_ID) VALUES ('D003', 'S003');
+INSERT INTO Delivery_Stock (Delivery_ID, Stock_ID) VALUES ('D004', 'S004');
+INSERT INTO Delivery_Stock (Delivery_ID, Stock_ID) VALUES ('D005', 'S005');
+INSERT INTO Delivery_Stock (Delivery_ID, Stock_ID) VALUES ('D006', 'S006');
+INSERT INTO Delivery_Stock (Delivery_ID, Stock_ID) VALUES ('D007', 'S007');
+INSERT INTO Delivery_Stock (Delivery_ID, Stock_ID) VALUES ('D008', 'S008');
+INSERT INTO Delivery_Stock (Delivery_ID, Stock_ID) VALUES ('D009', 'S009');
+INSERT INTO Delivery_Stock (Delivery_ID, Stock_ID) VALUES ('D010', 'S010');
+
+
+
+
+INSERT INTO EmergencyContact_Employee (EC_ID, Employee_ID) VALUES (1, 'E01');
+INSERT INTO EmergencyContact_Employee (EC_ID, Employee_ID) VALUES (2, 'E02');
+INSERT INTO EmergencyContact_Employee (EC_ID, Employee_ID) VALUES (3, 'E03');
+INSERT INTO EmergencyContact_Employee (EC_ID, Employee_ID) VALUES (4, 'E04');
+INSERT INTO EmergencyContact_Employee (EC_ID, Employee_ID) VALUES (5, 'E05');
+INSERT INTO EmergencyContact_Employee (EC_ID, Employee_ID) VALUES (6, 'E06');
+INSERT INTO EmergencyContact_Employee (EC_ID, Employee_ID) VALUES (7, 'E07');
+INSERT INTO EmergencyContact_Employee (EC_ID, Employee_ID) VALUES (8, 'E08');
+INSERT INTO EmergencyContact_Employee (EC_ID, Employee_ID) VALUES (9, 'E09');
+INSERT INTO EmergencyContact_Employee (EC_ID, Employee_ID) VALUES (10, 'E10');
+
+
+
+
+INSERT INTO Contract_Stock VALUES ('C001', 'S001');
+INSERT INTO Contract_Stock VALUES ('C002', 'S002');
+INSERT INTO Contract_Stock VALUES ('C003', 'S003');
+INSERT INTO Contract_Stock VALUES ('C004', 'S004');
+INSERT INTO Contract_Stock VALUES ('C005', 'S005');
+INSERT INTO Contract_Stock VALUES ('C006', 'S006');
+INSERT INTO Contract_Stock VALUES ('C007', 'S007');
+INSERT INTO Contract_Stock VALUES ('C008', 'S008');
+INSERT INTO Contract_Stock VALUES ('C009', 'S009');
+INSERT INTO Contract_Stock VALUES ('C010', 'S010');
+
+
+
+INSERT INTO Employee_Supplier VALUES ('E01', '24636730');
+INSERT INTO Employee_Supplier VALUES ('E02', '57687653');
+INSERT INTO Employee_Supplier VALUES ('E03', '62651197');
+INSERT INTO Employee_Supplier VALUES ('E04', '72174329');
+INSERT INTO Employee_Supplier VALUES ('E05', '87073414');
+INSERT INTO Employee_Supplier VALUES ('E06', '75790964');
+INSERT INTO Employee_Supplier VALUES ('E07', '91693353');
+INSERT INTO Employee_Supplier VALUES ('E08', '23413118');
+INSERT INTO Employee_Supplier VALUES ('E09', '79089661');
+INSERT INTO Employee_Supplier VALUES ('E10', '21880807');
+
+
+
+
+
+INSERT INTO Feedback_Person VALUES ('61816805', '900101011111');
+INSERT INTO Feedback_Person VALUES ('36991990', '900202022222');
+INSERT INTO Feedback_Person VALUES ('30934737', '870303033333');
+INSERT INTO Feedback_Person VALUES ('62343293', '760404044444');
+INSERT INTO Feedback_Person VALUES ('98150094', '850505055555');
+INSERT INTO Feedback_Person VALUES ('61699535', '820606066666');
+INSERT INTO Feedback_Person VALUES ('37549383', '780707077777');
+INSERT INTO Feedback_Person VALUES ('50924301', '900808088888');
+INSERT INTO Feedback_Person VALUES ('83514758', '910909099999');
+INSERT INTO Feedback_Person VALUES ('48075277', '800101100000');
+
+
+
+
+INSERT INTO Photocopier_Technician VALUES ('1001', 'TECH001');
+INSERT INTO Photocopier_Technician VALUES ('1002', 'TECH002');
+INSERT INTO Photocopier_Technician VALUES ('1003', 'TECH003');
+INSERT INTO Photocopier_Technician VALUES ('1004', 'TECH004');
+INSERT INTO Photocopier_Technician VALUES ('1005', 'TECH005');
+INSERT INTO Photocopier_Technician VALUES ('1006', 'TECH006');
+INSERT INTO Photocopier_Technician VALUES ('1007', 'TECH007');
+INSERT INTO Photocopier_Technician VALUES ('1008', 'TECH008');
+INSERT INTO Photocopier_Technician VALUES ('1009', 'TECH009');
+INSERT INTO Photocopier_Technician VALUES ('1010', 'TECH010');
+
+
+
+
+INSERT INTO Equipment_Payment_Record (Equipment_ID, PR_ID) VALUES ('1201','76878741');
+INSERT INTO Equipment_Payment_Record (Equipment_ID, PR_ID) VALUES ('1202','63048870');
+INSERT INTO Equipment_Payment_Record (Equipment_ID, PR_ID) VALUES ('1203','16175132');
+INSERT INTO Equipment_Payment_Record (Equipment_ID, PR_ID) VALUES ('1204','70604189');
+INSERT INTO Equipment_Payment_Record (Equipment_ID, PR_ID) VALUES ('1205','81478419');
+INSERT INTO Equipment_Payment_Record (Equipment_ID, PR_ID) VALUES ('1206','18254278');
+INSERT INTO Equipment_Payment_Record (Equipment_ID, PR_ID) VALUES ('1207','70504306');
+INSERT INTO Equipment_Payment_Record (Equipment_ID, PR_ID) VALUES ('1208','64963010');
+INSERT INTO Equipment_Payment_Record (Equipment_ID, PR_ID) VALUES ('1209','14460008');
+INSERT INTO Equipment_Payment_Record (Equipment_ID, PR_ID) VALUES ('1210','66885170');
+
+
+
+
+INSERT INTO Invoice_Stock (Invoice_ID, Stock_ID) VALUES ('68981784','S001');
+INSERT INTO Invoice_Stock (Invoice_ID, Stock_ID) VALUES ('41958195','S002');
+INSERT INTO Invoice_Stock (Invoice_ID, Stock_ID) VALUES ('77078758','S003');
+INSERT INTO Invoice_Stock (Invoice_ID, Stock_ID) VALUES ('67657692','S004');
+INSERT INTO Invoice_Stock (Invoice_ID, Stock_ID) VALUES ('78917830','S005');
+INSERT INTO Invoice_Stock (Invoice_ID, Stock_ID) VALUES ('56616134','S006');
+INSERT INTO Invoice_Stock (Invoice_ID, Stock_ID) VALUES ('67845239','S007');
+INSERT INTO Invoice_Stock (Invoice_ID, Stock_ID) VALUES ('84558036','S008');
+INSERT INTO Invoice_Stock (Invoice_ID, Stock_ID) VALUES ('61786028','S009');
+INSERT INTO Invoice_Stock (Invoice_ID, Stock_ID) VALUES ('88326395','S010');
+
+
+
+
+INSERT INTO Invoice_PIC (Invoice_ID, PIC_ID) VALUES ('68981784','PIC001');
+INSERT INTO Invoice_PIC (Invoice_ID, PIC_ID) VALUES ('41958195','PIC002');
+INSERT INTO Invoice_PIC (Invoice_ID, PIC_ID) VALUES ('77078758','PIC003');
+INSERT INTO Invoice_PIC (Invoice_ID, PIC_ID) VALUES ('67657692','PIC004');
+INSERT INTO Invoice_PIC (Invoice_ID, PIC_ID) VALUES ('78917830','PIC005');
+INSERT INTO Invoice_PIC (Invoice_ID, PIC_ID) VALUES ('56616134','PIC006');
+INSERT INTO Invoice_PIC (Invoice_ID, PIC_ID) VALUES ('67845239','PIC007');
+INSERT INTO Invoice_PIC (Invoice_ID, PIC_ID) VALUES ('84558036','PIC008');
+INSERT INTO Invoice_PIC (Invoice_ID, PIC_ID) VALUES ('61786028','PIC009');
+INSERT INTO Invoice_PIC (Invoice_ID, PIC_ID) VALUES ('88326395','PIC010');
+
+
+
+
+
+INSERT INTO Stock_PaymentRecord (Stock_ID, PR_ID) VALUES ('S001','76878741');
+INSERT INTO Stock_PaymentRecord (Stock_ID, PR_ID) VALUES ('S002','63048870');
+INSERT INTO Stock_PaymentRecord (Stock_ID, PR_ID) VALUES ('S003','16175132');
+INSERT INTO Stock_PaymentRecord (Stock_ID, PR_ID) VALUES ('S004','70604189');
+INSERT INTO Stock_PaymentRecord (Stock_ID, PR_ID) VALUES ('S005','81478419');
+INSERT INTO Stock_PaymentRecord (Stock_ID, PR_ID) VALUES ('S006','18254278');
+INSERT INTO Stock_PaymentRecord (Stock_ID, PR_ID) VALUES ('S007','70504306');
+INSERT INTO Stock_PaymentRecord (Stock_ID, PR_ID) VALUES ('S008','64963010');
+INSERT INTO Stock_PaymentRecord (Stock_ID, PR_ID) VALUES ('S009','14460008');
+INSERT INTO Stock_PaymentRecord (Stock_ID, PR_ID) VALUES ('S010','66885170');
+
+
+
+
+
+INSERT INTO Technician_Equipment (Technician_ID, Equipment_ID) VALUES ('TECH001', 1201);
+INSERT INTO Technician_Equipment (Technician_ID, Equipment_ID) VALUES ('TECH002', 1202);
+INSERT INTO Technician_Equipment (Technician_ID, Equipment_ID) VALUES ('TECH003', 1203);
+INSERT INTO Technician_Equipment (Technician_ID, Equipment_ID) VALUES ('TECH004', 1204);
+INSERT INTO Technician_Equipment (Technician_ID, Equipment_ID) VALUES ('TECH005', 1205);
+INSERT INTO Technician_Equipment (Technician_ID, Equipment_ID) VALUES ('TECH006', 1206);
+INSERT INTO Technician_Equipment (Technician_ID, Equipment_ID) VALUES ('TECH007', 1207);
+INSERT INTO Technician_Equipment (Technician_ID, Equipment_ID) VALUES ('TECH008', 1208);
+INSERT INTO Technician_Equipment (Technician_ID, Equipment_ID) VALUES ('TECH009', 1209);
+INSERT INTO Technician_Equipment (Technician_ID, Equipment_ID) VALUES ('TECH010', 1210);
+
+
+
+
+
+
