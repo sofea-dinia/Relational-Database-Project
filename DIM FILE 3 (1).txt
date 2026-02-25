@@ -1,0 +1,49 @@
+SET LINESIZE 300
+SET PAGESIZE 100
+SET TRIMSPOOL ON
+SET WRAP OFF
+SET RECSEP WRAP
+SET RECSEPCHAR '-'
+
+COLUMN PIC_ID FORMAT A7
+COLUMN PIC_Position FORMAT A20
+COLUMN Company_Name FORMAT A35
+COLUMN Company_Industry FORMAT A12
+COLUMN Contract_ID FORMAT A10
+COLUMN Contract_Status FORMAT A8
+COLUMN Delivery_ID FORMAT A11
+COLUMN Delivery_Client_Acceptance_Status FORMAT A30
+COLUMN Equipment_ID FORMAT A10
+COLUMN Equipment_Name FORMAT A20
+COLUMN PICV_ID FORMAT A7
+COLUMN PICV_Visit_Date FORMAT A10
+
+
+SELECT
+    P.PIC_ID,
+    P.PIC_Position,
+    C.Company_Name,
+    C.Company_Industry,
+    CT.Contract_ID,
+    CT.Contract_Status,
+    D.Delivery_ID,
+    D.Delivery_Client_Acceptance_Status,
+    E.Equipment_ID,
+    E.Equipment_Name,
+    PV.PICV_ID,
+    PV.PICV_Visit_Date
+FROM
+    PIC P
+JOIN Company C ON P.Company_Reference_No = C.Company_Reference_No
+JOIN Contract CT ON CT.PIC_ID = P.PIC_ID
+                AND CT.Company_Reference_No = C.Company_Reference_No
+JOIN Delivery D ON D.PIC_ID = P.PIC_ID
+               AND D.Company_Reference_No = C.Company_Reference_No
+               AND D.Contract_ID = CT.Contract_ID
+JOIN Equipment E ON E.Delivery_ID = D.Delivery_ID
+JOIN PIC_Visit PV ON PV.PIC_ID = P.PIC_ID
+WHERE
+    C.Company_Industry = 'Technology'
+    AND CT.Contract_Status = 'Active'
+    AND D.Delivery_Client_Acceptance_Status = 'Accepted';
+

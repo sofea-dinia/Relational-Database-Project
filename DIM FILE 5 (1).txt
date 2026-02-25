@@ -1,0 +1,25 @@
+CREATE OR REPLACE VIEW View_Contract_PIC_Company AS
+SELECT
+    C.Contract_ID,
+    P.PIC_ID,
+    Co.Company_Reference_No,
+    C.Contract_Status,
+    C.Contract_Total_Value,
+    P.PIC_Position,
+    Co.Company_Name
+FROM
+    Contract C
+JOIN PIC P ON C.PIC_ID = P.PIC_ID
+JOIN Company Co ON C.Company_Reference_No = Co.Company_Reference_No
+WHERE
+    Co.Company_Industry = 'Technology';
+SET LINESIZE 200
+SET PAGESIZE 100
+COLUMN Contract_ID FORMAT A12
+COLUMN PIC_ID FORMAT A8
+COLUMN Company_Reference_No FORMAT A15
+COLUMN Contract_Status FORMAT A12
+COLUMN PIC_Position FORMAT A20
+COLUMN Company_Name FORMAT A30
+
+SELECT * FROM View_Contract_PIC_Company;

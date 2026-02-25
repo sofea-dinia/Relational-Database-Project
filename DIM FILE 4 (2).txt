@@ -1,0 +1,32 @@
+SET LINESIZE 200
+SET PAGESIZE 50
+
+COLUMN PR_ID FORMAT 999999999999999 HEADING 'Payment_ID'
+COLUMN Invoice_ID FORMAT 999999999999999 HEADING 'Invoice_ID'
+
+
+
+SELECT
+  pr.PR_ID,                            -- Payment_Record
+  i.Invoice_ID,                        -- Invoice
+  s.Supplier_Name,                     -- Supplier
+  st.Stock_Condition,                  -- Stock
+  d.Delivery_ID,                       -- Delivery
+  p.Photocopier_Model_Name,           -- Photocopier
+  ink.Ink_Colour,                      -- Ink
+  spr.Stock_ID,                        -- Stock_PaymentRecord
+  f.Feedback_Rating                    -- Feedback 
+FROM Payment_Record pr
+JOIN Stock_PaymentRecord spr ON pr.PR_ID = spr.PR_ID
+JOIN Stock st ON spr.Stock_ID = st.Stock_ID
+JOIN Supplier s ON st.Supplier_ID = s.Supplier_ID
+JOIN Invoice i ON pr.Invoice_ID = i.Invoice_ID
+JOIN Delivery d ON d.PR_ID = pr.PR_ID
+JOIN Photocopier p ON st.Stock_ID = p.Stock_ID
+JOIN Ink ink ON st.Stock_ID = ink.Stock_ID
+JOIN Feedback f ON st.Stock_ID = f.Stock_ID            -- New join to Feedback
+WHERE s.Supplier_Status = 'Active'                     -- Constraint from Supplier
+  AND st.Stock_Condition = 'New'                       -- Constraint from Stock
+  AND pr.PR_Method = 'Bank Transfer'                   -- Constraint from Payment_Record
+  AND d.Delivery_Client_Acceptance_Status = 'Accepted' -- Constraint from Delivery
+ORDER BY pr.PR_ID DESC;

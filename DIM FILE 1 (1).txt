@@ -1,0 +1,8 @@
+SELECT 
+    E.Employee_Monthly_Salary,     -- Non-primary attribute from Employee
+    T.Technician_Education        -- Non-primary attribute from Technician
+FROM 
+    Employee E
+JOIN 
+    Technician T 
+    ON E.Employee_ID = T.Employee_ID;

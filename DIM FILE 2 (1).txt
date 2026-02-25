@@ -1,0 +1,16 @@
+SELECT 
+    Co.Company_Name,
+    C.Contract_ID,
+    C.Contract_Status,
+    SP.SP_MicrosoftO_Skill
+FROM 
+    Employee E
+JOIN 
+    Sales_Person SP ON E.Employee_ID = SP.Employee_ID
+JOIN 
+    Contract C ON SP.Sales_Person_ID = C.Sales_Person_ID
+JOIN 
+    Company Co ON C.Company_Reference_No = Co.Company_Reference_No
+WHERE 
+    Co.Company_Industry = 'Technology'
+    AND C.Contract_Status = 'Active';
